@@ -1,0 +1,4329 @@
+$begin 'AnsoftProject'
+	Created='Wed Apr 26 01:45:05 2023'
+	Product='ElectronicsDesktop'
+	FileOwnedByWorkbench=false
+	$begin 'Desktop'
+		Version(2018, 0)
+		InfrastructureVersion(1, 0)
+	$end 'Desktop'
+	UsesAdvancedFeatures=false
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'HFIEEnvironment'
+		Version(1, 0)
+	$end 'HFIEEnvironment'
+	$begin 'Q3DEnvironment'
+		Version(1, 0)
+	$end 'Q3DEnvironment'
+	$begin '2DExtractorEnvironment'
+		Version(1, 0)
+	$end '2DExtractorEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'NexximNetlistEnvironment'
+		Version(1, 0)
+	$end 'NexximNetlistEnvironment'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'MaxCirEnvironment'
+		Version(1, 0)
+	$end 'MaxCirEnvironment'
+	$begin 'SimplorerEnvironment'
+		Version(1, 0)
+	$end 'SimplorerEnvironment'
+	$begin 'EmitEnvironment'
+		Version(1, 0)
+	$end 'EmitEnvironment'
+	$begin 'FilterDesignEnvironment'
+	$end 'FilterDesignEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	ReadVersion=6
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=1
+		GPortCounter=0
+		NetCounter=0
+		Alias('Ieee;Simplorer Elements\\Ieee', 'Std;Simplorer Elements\\Std', 'Basic_VHDLAMS;Simplorer Elements\\Basic Elements VHDLAMS\\Basic Elements VHDLAMS', 'Digital_Elements;Simplorer Elements\\Digital Elements\\Digital Elements', 'Transformations;Simplorer Elements\\Tools\\Transformations\\Transformations', 'HEV_VHDLAMS;Simplorer Elements\\HEV VHDLAMS\\HEV VHDLAMS', 'automotive_vda;Simplorer Elements\\VDALibs VHDLAMS\\automotive_vda', 'example_boardnet;Simplorer Elements\\VDALibs VHDLAMS\\example_boardnet', 'example_ecar;Simplorer Elements\\VDALibs VHDLAMS\\example_ecar', 'fundamentals_vda;Simplorer Elements\\VDALibs VHDLAMS\\fundamentals_vda', 'hybrid_emc_vda;Simplorer Elements\\VDALibs VHDLAMS\\hybrid_emc_vda', 'megma;Simplorer Elements\\VDALibs VHDLAMS\\megma', 'modelica_rotational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_rotational', 'modelica_thermal;Simplorer Elements\\VDALibs VHDLAMS\\modelica_thermal', 'modelica_translational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_translational', 'spice2vhd;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd', 'spice2vhd_devices;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd_devices', 'aircraft_electrical_vhdlams;Simplorer Elements\\Aircraft Electrical VHDLAMS\\Aircraft Electrical VHDLAMS', 'power_system_vhdlams;Simplorer Elements\\Power System VHDLAMS\\Power System VHDLAMS')
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	VariableOrders[0:]
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(1604, 10000, 1, 1, 0, false, false)
+			Materials(1604, 9500, 9, 2, 1, false, false)
+			Scripts(1604, 9502, 33500, 4, 1, false, false)
+			Padstacks(1604, 9003, 12, 105, 1, false, false)
+			Symbols(1604, 9001, 10, 103, 1, false, false)
+			Footprints(1604, 9002, 11, 104, 1, false, false)
+			Components(1604, 9000, 8, 102, 1, false, false)
+			Models(1604, 9004, 13, 106, 1, false, false)
+			Packages(1604, 9005, 33502, 107, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.949999988079071
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'vacuum'
+			$begin 'FRP_core'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				permittivity='7.2'
+				conductivity='10^-12'
+				ModTime=1682463587
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'FRP_core'
+			$begin 'silicone_rubber'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				permittivity='4.3'
+				conductivity='10^-12'
+				ModTime=1682463666
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'silicone_rubber'
+			$begin 'steel_1008'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=161
+						Green=161
+						Blue=161
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				$begin 'permeability'
+					property_type='nonlinear'
+					BType='normal'
+					HUnit='A_per_meter'
+					BUnit='tesla'
+					$begin 'BHCoordinates'
+						$begin 'Coordinate'
+							X=0
+							Y=0
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=159.2
+							Y=0.2402
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=318.3
+							Y=0.8654
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=477.5
+							Y=1.1106
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=636.6
+							Y=1.2458
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=795.8
+							Y=1.331
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1591.5
+							Y=1.5
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=3183.1
+							Y=1.6
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=4774.6
+							Y=1.683
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=6366.2
+							Y=1.741
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=7957.7
+							Y=1.78
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=15915.5
+							Y=1.905
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=31831
+							Y=2.025
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=47746.5
+							Y=2.085
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=63662
+							Y=2.13
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=79577.5
+							Y=2.165
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=159155
+							Y=2.28
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=318310
+							Y=2.485
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=397887
+							Y=2.5851
+						$end 'Coordinate'
+					$end 'BHCoordinates'
+				$end 'permeability'
+				conductivity='2000000'
+				magnetic_loss_tangent='0'
+				$begin 'magnetic_coercivity'
+					property_type='VectorProperty'
+					Magnitude='0A_per_meter'
+					DirComp1='1'
+					DirComp2='0'
+					DirComp3='0'
+				$end 'magnetic_coercivity'
+				thermal_conductivity='45'
+				mass_density='7872'
+				specific_heat='481'
+				youngs_modulus='200000000000'
+				poissons_ratio='0.25'
+				thermal_expansion_coeffcient='1.26e-005'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'steel_1008'
+			$begin 'air'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.949999988079071
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1.0006'
+				permeability='1.0000004'
+				thermal_conductivity='0.0261'
+				mass_density='1.1614'
+				specific_heat='1006'
+				thermal_expansion_coeffcient='0.00333'
+				$begin 'thermal_material_type'
+					property_type='ChoiceProperty'
+					Choice='Fluid'
+				$end 'thermal_material_type'
+				diffusivity='2.88e-005'
+				molecular_mass='0.028966'
+				viscosity='1.84e-005'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'air'
+		$end 'Materials'
+		$begin 'SurfaceMaterials'
+		$end 'SurfaceMaterials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'Maxwell2DDesign1'
+				ModTime=1682462555
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=true
+				InitialLevels(0, 1)
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'Maxwell2DDesign1'
+		$end 'Symbols'
+		$begin 'DefInfo'
+			Maxwell2DDesign1(1002, 0, 0, 0, '', 1682462555, '', 'Maxwell2DDesign1', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1682462555, '', 0, 0)
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'Maxwell2DDesign1'
+				Library=''
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'Maxwell2DDesign1')
+					TextProp('Owner', 'SRD', '', 'Maxwell 2D')
+				$end 'Properties'
+				CompExtID=6
+			$end 'Maxwell2DDesign1'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=2
+	MoveBackwards=false
+	$begin 'Maxwell2DModel'
+		RepRewriteV2=true
+		Name='Maxwell2DDesign1'
+		DesignID=0
+		'Perform Minimal validation'=false
+		$begin 'TemperatureSettings'
+			IncludeTemperatureDependence=false
+			Temperatures(351, '22cel', 374, '22cel', 379, '22cel', 429, '22cel', 463, '22cel', 479, '22cel', 505, '22cel')
+		$end 'TemperatureSettings'
+		ObjsEnabledForDeformation()
+		PerfectConductorThreshold=100000000000
+		InsulatorThreshold=1
+		BackgroundMaterialName='vacuum'
+		SolutionType='Electrostatic'
+		GeometryMode='about Z'
+		SolutionType='Electrostatic'
+		GeometryMode='about Z'
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'ModelSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			$begin 'Editor3D Doc Preferences'
+				'Plane Background'=true
+				BackgroundColor1=16777215
+				BackgroundColor2=0
+				'Need Lights'=true
+				'Ambient Light'=9671571
+				'Num Lights'=4
+				Light0[4: 6710886, 0, -1, -0.150000005960464]
+				Light1[4: 6710886, -0.600000023841858, 0.100000001490116, -0.5]
+				Light2[4: 6710886, 0.5, 0.100000001490116, -0.5]
+				Light3[4: 6710886, 0.200000002980232, 0.400000005960464, 1]
+				Ver=2
+			$end 'Editor3D Doc Preferences'
+			SnapMode=31
+			WorkingCS=1
+			$begin 'GeometryCore'
+				BlockVersionID=3
+				DataVersion=10
+				NativeKernel='ACIS'
+				NativeKernelVersionID=10
+				Units='mm'
+				InstanceID=-1
+				$begin 'ValidationOptions'
+					EntityCheckLevel='Strict'
+					IgnoreUnclassifiedObjects=false
+					SkipIntersectionChecks=false
+				$end 'ValidationOptions'
+				$begin 'GeometryOperations'
+					BlockVersionID=2
+					$begin 'AnsoftRangedIDServerManager'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=0
+							IDServerRangeMin=0
+							IDServerRangeMax=2146483647
+							NextUniqueID=515
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=1
+							IDServerRangeMin=2146483648
+							IDServerRangeMax=2146485547
+							NextUniqueID=2146483654
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+					$end 'AnsoftRangedIDServerManager'
+					StartBackGroundFaceID=2146483648
+					$begin 'CoordinateSystems'
+					$end 'CoordinateSystems'
+					$begin 'OperandCSs'
+					$end 'OperandCSs'
+					$begin 'SubModelDefinitions'
+					$end 'SubModelDefinitions'
+					$begin 'Groups'
+						$begin 'Group'
+							GroupID=438
+							$begin 'Attributes'
+								Name='composite_insulator_model4a'
+								ParentGroupID=-1
+							$end 'Attributes'
+						$end 'Group'
+					$end 'Groups'
+					$begin 'UserDefinedModels'
+					$end 'UserDefinedModels'
+					$begin 'OperandUserDefinedModels'
+					$end 'OperandUserDefinedModels'
+					$begin 'ToplevelParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='air'
+								Flags=''
+								Color='(255 255 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='"air"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=350
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=351
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=1
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000351.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=470
+									$begin 'UniteParameters'
+										KernelVersion=10
+										KeepOriginals=false
+										BlankPart=351
+										NumToolParts=1
+										ToolParts(355)
+									$end 'UniteParameters'
+									ParentPartID=351
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=2
+											NumShells=2
+											NumFaces=0
+											NumWires=2
+											NumLoops=0
+											NumCoedges=2
+											NumEdges=2
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+										$begin 'MergedFaces'
+										$end 'MergedFaces'
+										$begin 'MergedEdges'
+										$end 'MergedEdges'
+									$end 'OperationIdentity'
+									BlankOperation=350
+									NumToolOperations=1
+									ToolOperations(354)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=471
+									$begin 'LocalOperationParameters'
+										KernelVersion=10
+										LocalOpPart=351
+									$end 'LocalOperationParameters'
+									ParentPartID=351
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=2
+											NumShells=2
+											NumFaces=2
+											NumWires=0
+											NumLoops=2
+											NumCoedges=2
+											NumEdges=2
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=472
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=2
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=472
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 1, 1, 1)
+														$begin 'FaceGeometry'
+															Area=70.983631266495
+															FcUVMid(70.7311254854731, 1.47792750572072e-012, 299.876171699812)
+															$begin 'FcTolVts'
+																TolVt(75.4845233848026, 1.47792889038101e-012, 299.876171699812, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+												$begin 'Face'
+													NormalizedSerialNum=1
+													ID=473
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 1, 1, 1)
+														$begin 'FaceGeometry'
+															Area=227.501211541594
+															FcUVMid(70.6254101427858, 1.47792966139337e-012, 299.911381106221)
+															$begin 'FcTolVts'
+																TolVt(79.1351624748152, 1.47792889038101e-012, 299.911381106221, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=470
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='silicone_rubber2'
+								Flags=''
+								Color='(175 159 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='"silicone_rubber"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=373
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=374
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000374.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=442
+									$begin 'UniteParameters'
+										KernelVersion=10
+										KeepOriginals=false
+										BlankPart=374
+										NumToolParts=3
+										ToolParts(414, 399, 394)
+									$end 'UniteParameters'
+									ParentPartID=374
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+										$begin 'MergedFaces'
+										$end 'MergedFaces'
+										$begin 'MergedEdges'
+										$end 'MergedEdges'
+									$end 'OperationIdentity'
+									BlankOperation=373
+									NumToolOperations=3
+									ToolOperations(413, 398, 393)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=443
+									$begin 'LocalOperationParameters'
+										KernelVersion=10
+										LocalOpPart=374
+									$end 'LocalOperationParameters'
+									ParentPartID=374
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=444
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=444
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=2296.59864897549
+															FcUVMid(32.7271927337307, 1.47609363674074e-012, 159.028573315869)
+															$begin 'FcTolVts'
+																TolVt(53.263617545932, 1.4210854715202e-012, 76.859860717143, 0)
+																TolVt(60.7058555073923, 1.4210854715202e-012, 95.5951751602051, 0)
+																TolVt(60.7058555073923, 1.47792889038101e-012, 222.576167449686, 0)
+																TolVt(53.2184343808935, 1.47792889038101e-012, 241.086861451591, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=442
+								$end 'Operation'
+								$begin 'BodyFromEdgeToOperation'
+									OperationType='BodyFromEdge'
+									ID=456
+									$begin 'BodyFromEdgeToParameters'
+										KernelVersion=10
+										LocalOpPart=374
+										Edges[2: 415, 395]
+									$end 'BodyFromEdgeToParameters'
+									ParentPartID=374
+									ReferenceUDMID=-1
+								$end 'BodyFromEdgeToOperation'
+								$begin 'BodyFromEdgeToOperation'
+									OperationType='BodyFromEdge'
+									ID=483
+									$begin 'BodyFromEdgeToParameters'
+										KernelVersion=10
+										LocalOpPart=374
+										Edges[1: 375]
+									$end 'BodyFromEdgeToParameters'
+									ParentPartID=374
+									ReferenceUDMID=-1
+								$end 'BodyFromEdgeToOperation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='silicone_rubber'
+								Flags=''
+								Color='(175 159 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='"silicone_rubber"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=378
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=379
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000379.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=439
+									$begin 'UniteParameters'
+										KernelVersion=10
+										KeepOriginals=false
+										BlankPart=379
+										NumToolParts=3
+										ToolParts(409, 369, 389)
+									$end 'UniteParameters'
+									ParentPartID=379
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+										$begin 'MergedFaces'
+										$end 'MergedFaces'
+										$begin 'MergedEdges'
+										$end 'MergedEdges'
+									$end 'OperationIdentity'
+									BlankOperation=378
+									NumToolOperations=3
+									ToolOperations(408, 368, 388)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=440
+									$begin 'LocalOperationParameters'
+										KernelVersion=10
+										LocalOpPart=379
+									$end 'LocalOperationParameters'
+									ParentPartID=379
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=441
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=441
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=2254.39087892681
+															FcUVMid(108.65891526732, 1.47619902104669e-012, 159.01120425158)
+															$begin 'FcTolVts'
+																TolVt(88.1211292010148, 1.4210854715202e-012, 77.1320752787664, 0)
+																TolVt(80.8359590206851, 1.4210854715202e-012, 95.8594689030309, 0)
+																TolVt(80.8359590206851, 1.47792889038101e-012, 222.31187370686, 0)
+																TolVt(88.1211292010148, 1.47792889038101e-012, 241.039267331125, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=439
+								$end 'Operation'
+								$begin 'BodyFromEdgeToOperation'
+									OperationType='BodyFromEdge'
+									ID=445
+									$begin 'BodyFromEdgeToParameters'
+										KernelVersion=10
+										LocalOpPart=379
+										Edges[2: 410, 390]
+									$end 'BodyFromEdgeToParameters'
+									ParentPartID=379
+									ReferenceUDMID=-1
+								$end 'BodyFromEdgeToOperation'
+								$begin 'BodyFromEdgeToOperation'
+									OperationType='BodyFromEdge'
+									ID=477
+									$begin 'BodyFromEdgeToParameters'
+										KernelVersion=10
+										LocalOpPart=379
+										Edges[1: 370]
+									$end 'BodyFromEdgeToParameters'
+									ParentPartID=379
+									ReferenceUDMID=-1
+								$end 'BodyFromEdgeToOperation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='steel1'
+								Flags=''
+								Color='(192 192 192)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='"steel_1008"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=428
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=429
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000429.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=467
+									$begin 'UniteParameters'
+										KernelVersion=10
+										KeepOriginals=false
+										BlankPart=429
+										NumToolParts=6
+										ToolParts(434, 404, 424, 419, 448, 459)
+									$end 'UniteParameters'
+									ParentPartID=429
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=7
+											NumEdges=7
+											NumVertices=7
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+										$begin 'MergedFaces'
+										$end 'MergedFaces'
+										$begin 'MergedEdges'
+										$end 'MergedEdges'
+									$end 'OperationIdentity'
+									BlankOperation=428
+									NumToolOperations=6
+									ToolOperations(433, 403, 423, 418, 446, 457)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=468
+									$begin 'LocalOperationParameters'
+										KernelVersion=10
+										LocalOpPart=429
+									$end 'LocalOperationParameters'
+									ParentPartID=429
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=7
+											NumEdges=7
+											NumVertices=7
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=469
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=469
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 7, 7, 7)
+														$begin 'FaceGeometry'
+															Area=3139.44263263975
+															FcUVMid(70.7007665513685, 1.47792889038101e-012, 269.210409490506)
+															$begin 'FcTolVts'
+																TolVt(53.2184343808935, 1.47792889038101e-012, 241.086861451591, 0)
+																TolVt(60.7058555073923, 1.47792889038101e-012, 222.576167449686, 0)
+																TolVt(80.8359590206851, 1.47792889038101e-012, 222.31187370686, 0)
+																TolVt(88.1211292010148, 1.47792889038101e-012, 241.039267331125, 0)
+																TolVt(88.1211292010148, 1.47792889038101e-012, 281.947375858263, 0)
+																TolVt(70.6152007370115, 1.47792889038101e-012, 317.999929031921, 0)
+																TolVt(53.2184343808935, 1.47792889038101e-012, 281.816964369388, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=467
+								$end 'Operation'
+								$begin 'BodyFromEdgeToOperation'
+									OperationType='BodyFromEdge'
+									ID=495
+									$begin 'BodyFromEdgeToParameters'
+										KernelVersion=10
+										LocalOpPart=429
+										Edges[1: 405]
+									$end 'BodyFromEdgeToParameters'
+									ParentPartID=429
+									ReferenceUDMID=-1
+								$end 'BodyFromEdgeToOperation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='steel2'
+								Flags=''
+								Color='(192 192 192)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='"steel_1008"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='BodyFromEdgeFrom'
+									ID=458
+									$begin 'BodyFromEdgeFromParameters'
+										KernelVersion=10
+										WhichEdge=1
+									$end 'BodyFromEdgeFromParameters'
+									ParentPartID=463
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=463
+										StartFaceID=-1
+										StartEdgeID=464
+										StartVertexID=465
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=464
+													EdgeFaces()
+													$begin 'EdTolVts'
+														TolVt(53.263617545932, 1.4210854715202e-012, 76.859860717143, 0)
+														TolVt(60.7058555073923, 1.4210854715202e-012, 95.5951751602051, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(48.3200255059852, 1.4210854715202e-012, 90.295811704571)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=465
+													VtPos(53.263617545932, 1.4210854715202e-012, 76.859860717143)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=466
+													VtPos(60.7058555073923, 1.4210854715202e-012, 95.5951751602051)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BodyFromEdgeToOpnId=456
+									SourceOperationID=443
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=474
+									$begin 'UniteParameters'
+										KernelVersion=10
+										KeepOriginals=false
+										BlankPart=463
+										NumToolParts=4
+										ToolParts(384, 452, 359, 364)
+									$end 'UniteParameters'
+									ParentPartID=463
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=5
+											NumEdges=5
+											NumVertices=5
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+										$begin 'MergedFaces'
+										$end 'MergedFaces'
+										$begin 'MergedEdges'
+										$end 'MergedEdges'
+									$end 'OperationIdentity'
+									BlankOperation=458
+									NumToolOperations=4
+									ToolOperations(383, 447, 358, 363)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=475
+									$begin 'LocalOperationParameters'
+										KernelVersion=10
+										LocalOpPart=463
+									$end 'LocalOperationParameters'
+									ParentPartID=463
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=5
+											NumEdges=5
+											NumVertices=5
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=476
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=476
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 5, 5, 5)
+														$begin 'FaceGeometry'
+															Area=1904.7961534104
+															FcUVMid(70.6735863182992, 1.4210854715202e-012, 48.8644282791965)
+															$begin 'FcTolVts'
+																TolVt(53.263617545932, 1.4210854715202e-012, 76.859860717143, 0)
+																TolVt(70.827652362967, 1.4210854715202e-012, 5.11590769747272e-013, 0)
+																TolVt(88.1211292010148, 1.4210854715202e-012, 77.1320752787664, 0)
+																TolVt(80.8359590206851, 1.4210854715202e-012, 95.8594689030309, 0)
+																TolVt(60.7058555073923, 1.4210854715202e-012, 95.5951751602051, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=474
+								$end 'Operation'
+								$begin 'BodyFromEdgeToOperation'
+									OperationType='BodyFromEdge'
+									ID=489
+									$begin 'BodyFromEdgeToParameters'
+										KernelVersion=10
+										LocalOpPart=463
+										Edges[1: 385]
+									$end 'BodyFromEdgeToParameters'
+									ParentPartID=463
+									ReferenceUDMID=-1
+								$end 'BodyFromEdgeToOperation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='core'
+								Flags=''
+								Color='(128 128 128)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='"FRP_core"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='BodyFromEdgeFrom'
+									ID=478
+									$begin 'BodyFromEdgeFromParameters'
+										KernelVersion=10
+										WhichEdge=0
+									$end 'BodyFromEdgeFromParameters'
+									ParentPartID=479
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=479
+										StartFaceID=-1
+										StartEdgeID=480
+										StartVertexID=481
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=480
+													EdgeFaces()
+													$begin 'EdTolVts'
+														TolVt(80.8359590206851, 1.4210854715202e-012, 95.8594689030309, 0)
+														TolVt(80.8359590206851, 1.47792889038101e-012, 222.31187370686, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(80.8359590206851, 1.44950718095061e-012, 159.085671304945)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=481
+													VtPos(80.8359590206851, 1.4210854715202e-012, 95.8594689030309)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=482
+													VtPos(80.8359590206851, 1.47792889038101e-012, 222.31187370686)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BodyFromEdgeToOpnId=477
+									SourceOperationID=440
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=501
+									$begin 'UniteParameters'
+										KernelVersion=10
+										KeepOriginals=false
+										BlankPart=479
+										NumToolParts=3
+										ToolParts(485, 491, 497)
+									$end 'UniteParameters'
+									ParentPartID=479
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+										$begin 'MergedFaces'
+										$end 'MergedFaces'
+										$begin 'MergedEdges'
+										$end 'MergedEdges'
+									$end 'OperationIdentity'
+									BlankOperation=478
+									NumToolOperations=3
+									ToolOperations(484, 490, 496)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=502
+									$begin 'LocalOperationParameters'
+										KernelVersion=10
+										LocalOpPart=479
+									$end 'LocalOperationParameters'
+									ParentPartID=479
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=503
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=503
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=4938.78731307722
+															FcUVMid(70.6393744116822, 1.44950718095061e-012, 159.085671304946)
+															$begin 'FcTolVts'
+																TolVt(60.7058555073923, 1.47792889038101e-012, 222.576167449686, 0)
+																TolVt(80.8359590206851, 1.47792889038101e-012, 222.31187370686, 0)
+																TolVt(80.8359590206851, 1.4210854715202e-012, 95.8594689030309, 0)
+																TolVt(60.7058555073923, 1.4210854715202e-012, 95.5951751602051, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=501
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Region'
+								Flags='Wireframe#'
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"air"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Region'
+									ID=504
+									ReferenceCoordSystemID=1
+									$begin 'RegionParameters'
+										KernelVersion=10
+										'+XPaddingType'='Percentage Offset'
+										'+XPadding'='60'
+										'-XPaddingType'='Absolute Position'
+										'-XPadding'='0mm'
+										'+YPaddingType'='Percentage Offset'
+										'+YPadding'='0'
+										'-YPaddingType'='Percentage Offset'
+										'-YPadding'='0'
+										'+ZPaddingType'='Percentage Offset'
+										'+ZPadding'='60'
+										'-ZPaddingType'='Percentage Offset'
+										'-ZPadding'='60'
+									$end 'RegionParameters'
+									ParentPartID=505
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=505
+										StartFaceID=506
+										StartEdgeID=507
+										StartVertexID=511
+										NumNewFaces=1
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'ToplevelParts'
+					$begin 'OperandParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_2'
+								Flags=''
+								Color='(255 255 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=354
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=355
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=1
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000355.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_3'
+								Flags=''
+								Color='(255 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=358
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=359
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000359.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_4'
+								Flags=''
+								Color='(255 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=363
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=364
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000364.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_5'
+								Flags=''
+								Color='(255 0 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=368
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=369
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000369.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_8'
+								Flags=''
+								Color='(0 255 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=383
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=384
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000384.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_9'
+								Flags=''
+								Color='(0 255 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=388
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=389
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000389.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_10'
+								Flags=''
+								Color='(0 255 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=393
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=394
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000394.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_11'
+								Flags=''
+								Color='(0 0 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=398
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=399
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000399.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_12'
+								Flags=''
+								Color='(0 255 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=403
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=404
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000404.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_13'
+								Flags=''
+								Color='(0 255 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=408
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=409
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000409.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_14'
+								Flags=''
+								Color='(0 255 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=413
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=414
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000414.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_15'
+								Flags=''
+								Color='(255 255 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=418
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=419
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000419.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_16'
+								Flags=''
+								Color='(255 255 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=423
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=424
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000424.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_18'
+								Flags=''
+								Color='(255 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=433
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=10
+										SourceFile='C:\\Users\\dagac\\OneDrive\\MasaÃ¼stÃ¼\\UEK_H08\\model4a\\composite_insulator_model4a.iges'
+									$end 'NativeBodyParameters'
+									ParentPartID=434
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									$begin 'BodyBlock'
+										BodyFileName='0000434.sab'
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_7_ObjectFromEdge1'
+								Flags=''
+								Color='(0 0 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='BodyFromEdgeFrom'
+									ID=446
+									$begin 'BodyFromEdgeFromParameters'
+										KernelVersion=10
+										WhichEdge=0
+									$end 'BodyFromEdgeFromParameters'
+									ParentPartID=448
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=448
+										StartFaceID=-1
+										StartEdgeID=449
+										StartVertexID=450
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=449
+													EdgeFaces()
+													$begin 'EdTolVts'
+														TolVt(88.1211292010148, 1.47792889038101e-012, 241.039267331125, 0)
+														TolVt(80.8359590206851, 1.47792889038101e-012, 222.31187370686, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(93.0347406082621, 1.47792889038101e-012, 227.896311573556)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=450
+													VtPos(88.1211292010148, 1.47792889038101e-012, 241.039267331125)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=451
+													VtPos(80.8359590206851, 1.47792889038101e-012, 222.31187370686)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BodyFromEdgeToOpnId=445
+									SourceOperationID=440
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_7_ObjectFromEdge2'
+								Flags=''
+								Color='(0 0 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='BodyFromEdgeFrom'
+									ID=447
+									$begin 'BodyFromEdgeFromParameters'
+										KernelVersion=10
+										WhichEdge=1
+									$end 'BodyFromEdgeFromParameters'
+									ParentPartID=452
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=452
+										StartFaceID=-1
+										StartEdgeID=453
+										StartVertexID=454
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=453
+													EdgeFaces()
+													$begin 'EdTolVts'
+														TolVt(88.1211292010148, 1.4210854715202e-012, 77.1320752787664, 0)
+														TolVt(80.8359590206851, 1.4210854715202e-012, 95.8594689030309, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(93.0347406082621, 1.4210854715202e-012, 90.2750310363354)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=454
+													VtPos(88.1211292010148, 1.4210854715202e-012, 77.1320752787664)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=455
+													VtPos(80.8359590206851, 1.4210854715202e-012, 95.8594689030309)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BodyFromEdgeToOpnId=445
+									SourceOperationID=440
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_6_ObjectFromEdge1'
+								Flags=''
+								Color='(255 0 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='BodyFromEdgeFrom'
+									ID=457
+									$begin 'BodyFromEdgeFromParameters'
+										KernelVersion=10
+										WhichEdge=0
+									$end 'BodyFromEdgeFromParameters'
+									ParentPartID=459
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=459
+										StartFaceID=-1
+										StartEdgeID=460
+										StartVertexID=461
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=460
+													EdgeFaces()
+													$begin 'EdTolVts'
+														TolVt(53.2184343808935, 1.47792889038101e-012, 241.086861451591, 0)
+														TolVt(60.7058555073923, 1.47792889038101e-012, 222.576167449686, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(48.3584621003197, 1.47792889038101e-012, 227.768552015251)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=461
+													VtPos(53.2184343808935, 1.47792889038101e-012, 241.086861451591)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=462
+													VtPos(60.7058555073923, 1.47792889038101e-012, 222.576167449686)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BodyFromEdgeToOpnId=456
+									SourceOperationID=443
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_6_ObjectFromEdge3'
+								Flags=''
+								Color='(255 0 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='BodyFromEdgeFrom'
+									ID=484
+									$begin 'BodyFromEdgeFromParameters'
+										KernelVersion=10
+										WhichEdge=0
+									$end 'BodyFromEdgeFromParameters'
+									ParentPartID=485
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=485
+										StartFaceID=-1
+										StartEdgeID=486
+										StartVertexID=487
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=486
+													EdgeFaces()
+													$begin 'EdTolVts'
+														TolVt(60.7058555073923, 1.47792889038101e-012, 222.576167449686, 0)
+														TolVt(60.7058555073923, 1.4210854715202e-012, 95.5951751602051, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(60.7058555073923, 1.44950718095061e-012, 159.085671304946)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=487
+													VtPos(60.7058555073923, 1.47792889038101e-012, 222.576167449686)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=488
+													VtPos(60.7058555073923, 1.4210854715202e-012, 95.5951751602051)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BodyFromEdgeToOpnId=483
+									SourceOperationID=443
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_6_ObjectFromEdge2_ObjectFromEdge1'
+								Flags=''
+								Color='(255 0 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='BodyFromEdgeFrom'
+									ID=490
+									$begin 'BodyFromEdgeFromParameters'
+										KernelVersion=10
+										WhichEdge=0
+									$end 'BodyFromEdgeFromParameters'
+									ParentPartID=491
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=491
+										StartFaceID=-1
+										StartEdgeID=492
+										StartVertexID=493
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=492
+													EdgeFaces()
+													$begin 'EdTolVts'
+														TolVt(60.7058555073923, 1.4210854715202e-012, 95.5951751602051, 0)
+														TolVt(80.8359590206851, 1.4210854715202e-012, 95.8594689030309, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(70.9520578134439, 1.4210854715202e-012, 38.5436395385224)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=493
+													VtPos(60.7058555073923, 1.4210854715202e-012, 95.5951751602051)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=494
+													VtPos(80.8359590206851, 1.4210854715202e-012, 95.8594689030309)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BodyFromEdgeToOpnId=489
+									SourceOperationID=475
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='composite_insulator_model4a_Unnamed_17_ObjectFromEdge1'
+								Flags=''
+								Color='(255 0 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=438
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								IsMaterialEditable=true
+								UseMaterialAppearance=false
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='BodyFromEdgeFrom'
+									ID=496
+									$begin 'BodyFromEdgeFromParameters'
+										KernelVersion=10
+										WhichEdge=0
+									$end 'BodyFromEdgeFromParameters'
+									ParentPartID=497
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=1
+											NumEdges=1
+											NumVertices=2
+										$end 'Topology'
+										BodyID=497
+										StartFaceID=-1
+										StartEdgeID=498
+										StartVertexID=499
+										NumNewFaces=0
+										NumNewEdges=1
+										NumNewVertices=2
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=498
+													EdgeFaces()
+													$begin 'EdTolVts'
+														TolVt(60.7058555073923, 1.47792889038101e-012, 222.576167449686, 0)
+														TolVt(80.8359590206851, 1.47792889038101e-012, 222.31187370686, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(70.9520578134438, 1.47792889038101e-012, 279.627703071369)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=499
+													VtPos(60.7058555073923, 1.47792889038101e-012, 222.576167449686)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=500
+													VtPos(80.8359590206851, 1.47792889038101e-012, 222.31187370686)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									BodyFromEdgeToOpnId=495
+									SourceOperationID=468
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'OperandParts'
+					$begin 'Planes'
+					$end 'Planes'
+					$begin 'Points'
+					$end 'Points'
+					$begin 'GeometryEntityLists'
+					$end 'GeometryEntityLists'
+					$begin 'RegionIdentity'
+						$begin 'Topology'
+							NumLumps=1
+							NumShells=1
+							NumFaces=1
+							NumWires=0
+							NumLoops=1
+							NumCoedges=4
+							NumEdges=4
+							NumVertices=4
+						$end 'Topology'
+						BodyID=505
+						StartFaceID=506
+						StartEdgeID=507
+						StartVertexID=511
+						NumNewFaces=1
+						NumNewEdges=4
+						NumNewVertices=4
+						FaceNameAndIDMap()
+						EdgeNameAndIDMap()
+						VertexNameAndIDMap()
+					$end 'RegionIdentity'
+					$begin 'CachedNames'
+						$begin 'air'
+							air(-1)
+						$end 'air'
+						$begin 'allobjects'
+							allobjects(-1)
+						$end 'allobjects'
+						$begin 'composite_insulator_model4a'
+							composite_insulator_model4a(-1)
+						$end 'composite_insulator_model4a'
+						$begin 'composite_insulator_model4a_unnamed_'
+							composite_insulator_model4a_unnamed_(2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18)
+						$end 'composite_insulator_model4a_unnamed_'
+						$begin 'composite_insulator_model4a_unnamed_17_objectfromedge'
+							composite_insulator_model4a_unnamed_17_objectfromedge(1)
+						$end 'composite_insulator_model4a_unnamed_17_objectfromedge'
+						$begin 'composite_insulator_model4a_unnamed_6_objectfromedge'
+							composite_insulator_model4a_unnamed_6_objectfromedge(1, 3)
+						$end 'composite_insulator_model4a_unnamed_6_objectfromedge'
+						$begin 'composite_insulator_model4a_unnamed_6_objectfromedge2_objectfromedge'
+							composite_insulator_model4a_unnamed_6_objectfromedge2_objectfromedge(1)
+						$end 'composite_insulator_model4a_unnamed_6_objectfromedge2_objectfromedge'
+						$begin 'composite_insulator_model4a_unnamed_7_objectfromedge'
+							composite_insulator_model4a_unnamed_7_objectfromedge(1, 2)
+						$end 'composite_insulator_model4a_unnamed_7_objectfromedge'
+						$begin 'core'
+							core(-1)
+						$end 'core'
+						$begin 'global'
+							global(-1)
+						$end 'global'
+						$begin 'model'
+							model(-1)
+						$end 'model'
+						$begin 'region'
+							region(-1)
+						$end 'region'
+						$begin 'silicone_rubber'
+							silicone_rubber(-1, 2)
+						$end 'silicone_rubber'
+						$begin 'steel'
+							steel(1, 2)
+						$end 'steel'
+					$end 'CachedNames'
+				$end 'GeometryOperations'
+				$begin 'GeometryDependencies'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 350)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 470)
+						DependencyObject('GeometryBodyOperation', 350)
+						DependencyObject('GeometryBodyOperation', 354)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 471)
+						DependencyObject('GeometryBodyOperation', 470)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 373)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=4
+						DependencyObject('GeometryBodyOperation', 442)
+						DependencyObject('GeometryBodyOperation', 373)
+						DependencyObject('GeometryBodyOperation', 413)
+						DependencyObject('GeometryBodyOperation', 398)
+						DependencyObject('GeometryBodyOperation', 393)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 443)
+						DependencyObject('GeometryBodyOperation', 442)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=0
+						DependencyObject('GeometryOperation', 456)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=0
+						DependencyObject('GeometryOperation', 483)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 378)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=4
+						DependencyObject('GeometryBodyOperation', 439)
+						DependencyObject('GeometryBodyOperation', 378)
+						DependencyObject('GeometryBodyOperation', 408)
+						DependencyObject('GeometryBodyOperation', 368)
+						DependencyObject('GeometryBodyOperation', 388)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 440)
+						DependencyObject('GeometryBodyOperation', 439)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=0
+						DependencyObject('GeometryOperation', 445)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=0
+						DependencyObject('GeometryOperation', 477)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 428)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=7
+						DependencyObject('GeometryBodyOperation', 467)
+						DependencyObject('GeometryBodyOperation', 428)
+						DependencyObject('GeometryBodyOperation', 433)
+						DependencyObject('GeometryBodyOperation', 403)
+						DependencyObject('GeometryBodyOperation', 423)
+						DependencyObject('GeometryBodyOperation', 418)
+						DependencyObject('GeometryBodyOperation', 446)
+						DependencyObject('GeometryBodyOperation', 457)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 468)
+						DependencyObject('GeometryBodyOperation', 467)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=0
+						DependencyObject('GeometryOperation', 495)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 458)
+						DependencyObject('GeometryOperation', 456)
+						DependencyObject('GeometryBodyOperation', 443)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=5
+						DependencyObject('GeometryBodyOperation', 474)
+						DependencyObject('GeometryBodyOperation', 458)
+						DependencyObject('GeometryBodyOperation', 383)
+						DependencyObject('GeometryBodyOperation', 447)
+						DependencyObject('GeometryBodyOperation', 358)
+						DependencyObject('GeometryBodyOperation', 363)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 475)
+						DependencyObject('GeometryBodyOperation', 474)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=0
+						DependencyObject('GeometryOperation', 489)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 478)
+						DependencyObject('GeometryOperation', 477)
+						DependencyObject('GeometryBodyOperation', 440)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=4
+						DependencyObject('GeometryBodyOperation', 501)
+						DependencyObject('GeometryBodyOperation', 478)
+						DependencyObject('GeometryBodyOperation', 484)
+						DependencyObject('GeometryBodyOperation', 490)
+						DependencyObject('GeometryBodyOperation', 496)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 502)
+						DependencyObject('GeometryBodyOperation', 501)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 504)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 354)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 358)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 363)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 368)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 383)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 388)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 393)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 398)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 403)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 408)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 413)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 418)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 423)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 433)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 446)
+						DependencyObject('GeometryOperation', 445)
+						DependencyObject('GeometryBodyOperation', 440)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 447)
+						DependencyObject('GeometryOperation', 445)
+						DependencyObject('GeometryBodyOperation', 440)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 457)
+						DependencyObject('GeometryOperation', 456)
+						DependencyObject('GeometryBodyOperation', 443)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 484)
+						DependencyObject('GeometryOperation', 483)
+						DependencyObject('GeometryBodyOperation', 443)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 490)
+						DependencyObject('GeometryOperation', 489)
+						DependencyObject('GeometryBodyOperation', 475)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 496)
+						DependencyObject('GeometryOperation', 495)
+						DependencyObject('GeometryBodyOperation', 468)
+					$end 'DependencyInformation'
+				$end 'GeometryDependencies'
+			$end 'GeometryCore'
+			GroupByMaterial=true
+			GroupSheetByMaterial=true
+			GroupCompByDefID=true
+			DoNotOrganizeUnderGroup=true
+			$begin 'LastUserInputs'
+			$end 'LastUserInputs'
+		$end 'ModelSetup'
+		$begin '3DComponent'
+		$end '3DComponent'
+		$begin 'BoundarySetup'
+			$begin 'GlobalBoundData'
+			$end 'GlobalBoundData'
+			$begin 'Boundaries'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'Boundaries'
+			$begin 'ProductSpecificData'
+			$end 'ProductSpecificData'
+		$end 'BoundarySetup'
+		$begin 'MaxwellParameterSetup'
+			$begin 'MaxwellParameters'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MaxwellParameters'
+			MotionParams()
+		$end 'MaxwellParameterSetup'
+		$begin 'MeshSetup'
+			$begin 'MeshSettings'
+				$begin 'GlobalSurfApproximation'
+					CurvedSurfaceApproxChoice='UseSlider'
+					SliderMeshSettings=5
+				$end 'GlobalSurfApproximation'
+				$begin 'GlobalModelRes'
+					UseAutoLength=true
+				$end 'GlobalModelRes'
+				MeshMethod='AnsoftTAU'
+			$end 'MeshSettings'
+			$begin 'MeshOperations'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MeshOperations'
+		$end 'MeshSetup'
+		$begin 'AnalysisSetup'
+			$begin 'SolveSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+		$end 'Solutions'
+		$begin 'FieldsReporter'
+			$begin 'FieldsCalculator'
+				Line_Discretization=1000
+			$end 'FieldsCalculator'
+			$begin 'PlotDefaults'
+				Default_SolutionId=-1
+				Default_PlotFolder='Automatic'
+			$end 'PlotDefaults'
+			$begin 'FieldsPlotManagerID'
+				NextUniqueID=0
+				MoveBackwards=false
+				NumQuantityType=0
+				NumPlots=0
+			$end 'FieldsPlotManagerID'
+			$begin 'Report3dInGeomWnd'
+				Report3dNum=0
+			$end 'Report3dInGeomWnd'
+			$begin 'Report2dInGeomWnd'
+				Report2dNum=0
+			$end 'Report2dInGeomWnd'
+			$begin 'AntennaParametersInGeomWnd'
+				AntennaParametersNum=0
+			$end 'AntennaParametersInGeomWnd'
+			AntennaParametersPlotTablesOrder()
+		$end 'FieldsReporter'
+		$begin 'SolutionManager'
+			$begin 'Version ID Map'
+				V=51
+			$end 'Version ID Map'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR209515872168246381011.tmp'
+	$end 'Maxwell2DModel'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='Maxwell2DDesign1'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='Maxwell2DDesign1'
+			ID='0'
+			$begin 'Maxwell2DDesignInstance'
+				DesignInstanceID=1
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Editor3d(View(WindowPos(3, -1, -1, -9, -38, 0, 0, 1434, 474), OrientationMatrix(0.00565945636481047, -2.14222842128192e-018, 0, 0, 0, 0, -0.00565945636481047, 0, 0, 0.00565945636481047, 0, 0, -0.399643659591675, -0.89983081817627, -6.74672842025757, 1, 0, -1.09763896465302, 1.49569642543793, -0.609673202037811, 0.80025440454483, -3.60894966125488, 17.1024055480957), Drawings[7: 'Region', 'core', 'steel1', 'silicone_rubber2', 'silicone_rubber', 'steel2', 'air'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=10, dYForGrid=10, dZForGrid=10, dRForGrid=10, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'Maxwell2DDesignInstance'
+		$end 'Instance'
+		$begin 'SODInfo'
+		$end 'SODInfo'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+	$begin 'WBMaterialGuidDetails'
+		WBMaterialGuidMap()
+	$end 'WBMaterialGuidDetails'
+$end 'AnsoftProject'
+$begin 'AllReferencedFilesForProject'
+$begin 'Design_0.setup/NativeGeometryFiles'
+NumFiles= 18
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000351.sab
+BIN000000003058
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+é\	àÍO@š9­>§ýy=’$Km6r@>‚€¦ÈS@vÆRÁXz=˜ˆjö¼Fs@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_1	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+é\	àÍO@š9­>§ýy=’$Km6r@>‚€¦ÈS@vÆRÁXz=˜ˆjö¼Fs@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_1_           ÿÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+é\	àÍO@š9­>§ýy=’$Km6r@>‚€¦ÈS@vÆRÁXz=˜ˆjö¼Fs@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+é\	àÍO@š9­>§ýy=’$Km6r@>‚€¦ÈS@vÆRÁXz=˜ˆjö¼Fs@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:5coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ   -DTû!	@   Ò!3|Ù"@	      unknown
+é\	àÍO@š9­>§ýy=’$Km6r@>‚€¦ÈS@vÆRÁXz=˜ˆjö¼Fs@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?      ð?        id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ `  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      ellipse%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ‚vC¸¨Q@     z=•ÖZ•¾r@              ð¿\3&¦‘<m@öAþ!À                      ð?%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ a  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>‚€¦ÈS@     z=•ÖZ•¾r@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:5%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?      ð?        End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 2216 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000355.sab
+BIN000000003058
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+¸¹“~P@(ŠÁm°þy=©áöqr@÷÷^nßR@èu>’Oz=æm’·
+s@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_2	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+¸¹“~P@(ŠÁm°þy=©áöqr@÷÷^nßR@èu>’Oz=æm’·
+s@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_2c           ÿÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+¸¹“~P@(ŠÁm°þy=©áöqr@÷÷^nßR@èu>’Oz=æm’·
+s@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+¸¹“~P@(ŠÁm°þy=©áöqr@÷÷^nßR@èu>’Oz=æm’·
+s@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:7coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ   -DTû!	@   Ò!3|Ù"@	      unknown
+¸¹“~P@(ŠÁm°þy=©áöqr@÷÷^nßR@èu>’Oz=æm’·
+s@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?      ð?        id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ d  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      ellipse%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿCXŒÂÊ®Q@     z=ùÅÌ¾r@              ð¿
+\3&¦‘<<û)½zÀ                      ð?%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ e  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷÷^nßR@     z=ùÅÌ¾r@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:7%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?      ð?        End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 2216 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000359.sab
+BIN000000005038
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+ ÙAø´Q@þÿÿÿÿÿx=í1e‘*¼¿›»$AV@þÿÿÿÿÿx=ZºÞësHS@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_3	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+ ÙAø´Q@þÿÿÿÿÿx=í1e‘*¼¿›»$AV@þÿÿÿÿÿx=ZºÞësHS@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_3g            ÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+ ÙAø´Q@þÿÿÿÿÿx=í1e‘*¼¿›»$AV@þÿÿÿÿÿx=ZºÞësHS@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+ ÙAø´Q@þÿÿÿÿÿx=í1e‘*¼¿›»$AV@þÿÿÿÿÿx=ZºÞësHS@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:9coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              þd¹aY@	      unknown
+ ÙAø´Q@þÿÿÿÿÿx=í1e‘*¼¿›»$AV@þÿÿÿÿÿx=ZºÞësHS@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?                id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ h  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%          "              âj²@@   îÌýujð'@   5< ŠeyA@   VÀê9`D@   8¡PW‚}E@   Å®ò÷/G@   b8ËÿˆH@   *d,_°I@   f‰WF{®I@   ïíŸB:J@   ¡’ØsPK@   MŸ”KØK@   …
+Åà:L@   a)êv­M@   ççFë²O@   F;¤!k`P@   ·wj‰1ðP@   =oÖ±gQ@   GKü·Q@   KÉâ‚R@   rì#˜„S@   4 )	·>S@   Q—Ób¦˜S@   "jcÈæS@   ó`”;T@   ¥àÈ‚zT@   )’¡qU@   ìcºæ*ùU@   Ý€‚þ}V@   ä5pÔgW@   „Ý*˜ÕW@   $^.éYeX@   þd¹aY@   ¿<±”ÀV@þÿÿÿÿÿx=ZºÞësHS@,ëÒñV@þÿÿÿÿÿx=¿iÀÅÁR@NÖF\V@þÿÿÿÿÿx=ˆ´TclÂQ@ƒ|®ïV@þÿÿÿÿÿx=¶ÛÞK­±M@›»$AV@þÿÿÿÿÿx=Oë^ÈôG@^b.žüU@þÿÿÿÿÿx=½ì–ƒÉB@1RŸ0V@þÿÿÿÿÿx=O#qâ@@q¤n¡§U@þÿÿÿÿÿx=”sÃ¤1ù>@I0ÍU@þÿÿÿÿÿx=€^Ë¡rÝ>@	\·É™–T@þÿÿÿÿÿx= Õ°œÈ!?@©ÜÞ8ˆ\T@þÿÿÿÿÿx=ßˆª“²W>@Lü	T@þÿÿÿÿÿx=ûGB±S½=@&µXÙS@þÿÿÿÿÿx=?¿q>JS<@ÑY{´ÂS@þÿÿÿÿÿx=`[šêð	;@ž‹q‡ÆS@þÿÿÿÿÿx=A&€®ß9@¨dBšÃS@þÿÿÿÿÿx=Nq‘pO7@pó›CÅS@þÿÿÿÿÿx=Jýê|EJ4@R²GpÅS@þÿÿÿÿÿx=ªÌ»ù1@@lÖ”?ÄS@þÿÿÿÿÿx=áÌ¬ìý-@W†ÍÇS@þÿÿÿÿÿx=~MK´‰o*@O$\Ø-»S@þÿÿÿÿÿx=__cg+&@ŠQ9‡"T@þÿÿÿÿÿx=•nÒ}M{"@ÃñNp³–T@þÿÿÿÿÿx=!…æ)Vi @y¶w©öT@þÿÿÿÿÿx=U÷°òì @©‰¼7 7U@þÿÿÿÿÿx=š8©Á(´@æi7GkU@þÿÿÿÿÿx=š®m‡@6º]l·U@þÿÿÿÿÿx=hÏ"†’"@#÷ZªîU@þÿÿÿÿÿx=ü-#ç9ƒ@(SgVçU@þÿÿÿÿÿx=2wP~¡@'rst;ÚT@þÿÿÿÿÿx=Ús Á{ @Ì¤@ú±6T@þÿÿÿÿÿx=Ý÷¦ð`jî?ÈÁ2Hî™S@þÿÿÿÿÿx=öÃsxÂ¬à?äá˜7ûR@þÿÿÿÿÿx=í1e‘*¼¿Æah›.SR@þÿÿÿÿÿx=-/“%1?6Y9X$ìQ@þÿÿÿÿÿx=g÷¢\„? ÙAø´Q@þÿÿÿÿÿx=ÿÿÿÿÿÿa=        null_surface%   %   nullbs%   %         ð¿      ð¿            âj²@@îÌýujð'@5< ŠeyA@VÀê9`D@8¡PW‚}E@Å®ò÷/G@b8ËÿˆH@*d,_°I@f‰WF{®I@ïíŸB:J@¡’ØsPK@MŸ”KØK@…
+Åà:L@a)êv­M@ççFë²O@F;¤!k`P@·wj‰1ðP@=oÖ±gQ@GKü·Q@KÉâ‚R@rì#˜„S@4 )	·>S@Q—Ób¦˜S@"jcÈæS@ó`”;T@¥àÈ‚zT@)’¡qU@ìcºæ*ùU@Ý€‚þ}V@ä5pÔgW@„Ý*˜ÕW@$^.éYeX@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ i  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@þÿÿÿÿÿx=ZºÞësHS@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ j  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÙAø´Q@þÿÿÿÿÿx=ÿÿÿÿÿÿa=%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:9%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?                End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 4196 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000364.sab
+BIN000000005040
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+€yº¹ÅJ@þÿÿÿÿÿx=ƒüZ+¼¿ ÙAø´Q@þÿÿÿÿÿx=¢Ï>õ7S@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_4	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+€yº¹ÅJ@þÿÿÿÿÿx=ƒüZ+¼¿ ÙAø´Q@þÿÿÿÿÿx=¢Ï>õ7S@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_4l            ÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+€yº¹ÅJ@þÿÿÿÿÿx=ƒüZ+¼¿ ÙAø´Q@þÿÿÿÿÿx=¢Ï>õ7S@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+€yº¹ÅJ@þÿÿÿÿÿx=ƒüZ+¼¿ ÙAø´Q@þÿÿÿÿÿx=¢Ï>õ7S@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:11coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              ]dPŒhY@	      unknown
+€yº¹ÅJ@þÿÿÿÿÿx=ƒüZ+¼¿ ÙAø´Q@þÿÿÿÿÿx=¢Ï>õ7S@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?                id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ m  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%          "              Øøáñ)@   ).‰1
+e'@   „ãxVA@   ¤˜Í(,=D@   ‡y3FªZE@   ‡ÕG@   ±® 'fH@   y<NØõH@   ´a:5£‹I@   >øÏŽjJ@   ðjrÇ›-K@   ›ww:>µK@   Þ]í³L@   °ÍeÕéL@   6Às5O@   m§ÿNP@   ÞãÛ€ÅÞP@   dxàÍEVQ@   o·w
+¦Q@   r5Ú¤pR@   šX•õR@   T› K-S@   xEZ:‡S@   CÖÔ\ÕS@   7_Òý'*T@   @RÀiT@   %•™ñT@   Ð+Þ¾çU@   *Iòy’lV@   ¢áËûW@   -ðN",ÄW@   KÊŸàíSX@   ]dPŒhY@   7A8¾¡J@þÿÿÿÿÿx=¢Ï>õ7S@ýzƒŸ¡J@þÿÿÿÿÿx=§Âl(¶R@(°$d¡J@þÿÿÿÿÿx=~Dþª¼Q@,Kº³¤J@þÿÿÿÿÿx=ˆëÚN­±M@€yº¹ÅJ@þÿÿÿÿÿx=¯¸]ÈôG@‹H¸„·J@þÿÿÿÿÿx=©Å™ƒÉB@q³PíJ@þÿÿÿÿÿx=Pepâ@@‹²+ÇaK@þÿÿÿÿÿx=ÓÃ¤1ù>@?z¨?´¦L@þÿÿÿÿÿx=ÐUË¡rÝ>@FÏƒM@þÿÿÿÿÿx=ŠÖ°œÈ!?@§2j.>÷M@þÿÿÿÿÿx=nˆª“²W>@6z<¦N@þÿÿÿÿÿx=3HB±S½=@ÎrdžýN@þÿÿÿÿÿx=#¿q>JS<@¾˜5cæ*O@þÿÿÿÿÿx=`[šêð	;@I"I‘3#O@þÿÿÿÿÿx=A&€®ß9@¸~#)O@þÿÿÿÿÿx=2q‘pO7@úWjÇ%O@þÿÿÿÿÿx=ºýê|EJ4@ú›Çn%O@þÿÿÿÿÿx=Ì»ù1@gvÏ'O@þÿÿÿÿÿx=Ñ¬ìý-@¡‘´ O@þÿÿÿÿÿx=žAK´‰o*@oøsïò9O@þÿÿÿÿÿx=UA_cg+&@k“¹‘	rN@þÿÿÿÿÿx=ÔÐ}M{"@#mŽ¿ç‚M@þÿÿÿÿÿx=øSé)Vi @6ñ¿°ûÂL@þÿÿÿÿÿx=rKò°òì @”ä³0BL@þÿÿÿÿÿx=èXçÁ(´@§»¡¿ÙK@þÿÿÿÿÿx=´(Ï­m‡@NfÀäuAK@þÿÿÿÿÿx=j‰’"@eêùÒJ@þÿÿÿÿÿx=ÊµÛ9ƒ@´ïùô¬K@þÿÿÿÿÿx=Œv–f¡@`UT®×ûL@þÿÿÿÿÿx=ì/»{ @•™-½êBN@þÿÿÿÿÿx= ºØAjî?¹/º¹q|O@þÿÿÿÿÿx=–ÞñÙ«à?ª‘dîð\P@þÿÿÿÿÿx=ƒüZ+¼¿&.¶ë
+Q@þÿÿÿÿÿx= ×Ï“` ?VãÈàwQ@þÿÿÿÿÿx=ÑR‹©âˆ‡? ÙAø´Q@þÿÿÿÿÿx=þÿÿÿÿÿ[=        null_surface%   %   nullbs%   %         ð¿      ð¿            Øøáñ)@).‰1
+e'@„ãxVA@¤˜Í(,=D@‡y3FªZE@‡ÕG@±® 'fH@y<NØõH@´a:5£‹I@>øÏŽjJ@ðjrÇ›-K@›ww:>µK@Þ]í³L@°ÍeÕéL@6Às5O@m§ÿNP@ÞãÛ€ÅÞP@dxàÍEVQ@o·w
+¦Q@r5Ú¤pR@šX•õR@T› K-S@xEZ:‡S@CÖÔ\ÕS@7_Òý'*T@@RÀiT@%•™ñT@Ð+Þ¾çU@*Iòy’lV@¢áËûW@-ðN",ÄW@KÊŸàíSX@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ n  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ7A8¾¡J@þÿÿÿÿÿx=¢Ï>õ7S@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ o  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÙAø´Q@þÿÿÿÿÿx=þÿÿÿÿÿ[=%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:11%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?                End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 4198 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000369.sab
+BIN000000003175
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@à¨CZ€5T@     z=Fn‘ÞúÉk@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_5	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@à¨CZ€5T@     z=Fn‘ÞúÉk@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_5q          ÿ ÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@à¨CZ€5T@     z=Fn‘ÞúÉk@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@à¨CZ€5T@     z=Fn‘ÞúÉk@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:13coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              õ?G3ôœ_@	      unknown
+à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@à¨CZ€5T@     z=Fn‘ÞúÉk@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?              ð?id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ r  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      straight%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@        ¡:!2À<      ð?%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ s  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ t  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà¨CZ€5T@     z=Fn‘ÞúÉk@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:13%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?              ð?End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 2333 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000374.sab
+BIN000000003175
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+Èù'yYZN@þÿÿÿÿÿx==ŽYæW@Èù'yYZN@     z=z-¸öoÒk@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_6	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+Èù'yYZN@þÿÿÿÿÿx==ŽYæW@Èù'yYZN@     z=z-¸öoÒk@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_6v          ÿ ÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+Èù'yYZN@þÿÿÿÿÿx==ŽYæW@Èù'yYZN@     z=z-¸öoÒk@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+Èù'yYZN@þÿÿÿÿÿx==ŽYæW@Èù'yYZN@     z=z-¸öoÒk@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:15coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              ·<â“È¾_@	      unknown
+Èù'yYZN@þÿÿÿÿÿx==ŽYæW@Èù'yYZN@     z=z-¸öoÒk@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?              ð?id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ w  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      straight%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÈù'yYZN@     z=z-¸öoÒk@        €Y³Þ À¼      ð¿%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ x  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÈù'yYZN@     z=z-¸öoÒk@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ y  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÈù'yYZN@þÿÿÿÿÿx==ŽYæW@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:15%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?              ð?End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 2333 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000379.sab
+BIN000000014791
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+DÓm>?šU@3.KÒÈw=Ù€§÷+S@ò)Ï}ka@Lj·[ï‹z=QI¾»*n@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_7	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+DÓm>?šU@3.KÒÈw=Ù€§÷+S@ò)Ï}ka@Lj·[ï‹z=QI¾»*n@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_7{          ÿ  €
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+DÓm>?šU@3.KÒÈw=Ù€§÷+S@ò)Ï}ka@Lj·[ï‹z=QI¾»*n@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+DÓm>?šU@3.KÒÈw=Ù€§÷+S@ò)Ï}ka@Lj·[ï‹z=QI¾»*n@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:17coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              ˜Ê‹Î@	      unknown
+DÓm>?šU@3.KÒÈw=Ù€§÷+S@ò)Ï}ka@Lj·[ï‹z=QI¾»*n@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß                       ð?id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ |  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%          å              þ&=«(@   ý‹¤!8@   âE/0@   E–âIŸ<'@   ÔßrCÏc+@   ­C9ì0@   <‹üÑK4@   Iìsö‘19@   ÆZ÷gš=@   Œç¶¸A@   JeêC@   ž†5ZåÎF@    ŠòµH@   u“Üõ1I@   ¤õ]Ï™J@   ÈÍ.‹L@   ÊRê ïL@   ÓÀþõúN@   Ò=Ïh®O@   ¨òoÔ½#P@   Õsg»ÎQ@   Ô§´‡¨XR@   ºbŸrS@   a¼³.Ê±S@   áÁ#ö6T@   !ÙR`¹ÒT@   ß•ú«ÆEU@   ë¤n‹µU@   @n°Ž V@   CæûfV@   `YÃ”‘½V@   Âkµ’•#W@   Aµ…û_W@   %þåW@   1²ÌÑNX@   ·Îg|¨X@   ¢¯™H Y@   î+ÿ8òOY@   S…Õƒ Y@   ¼N'ŽãðY@   aò¼ë"-Z@   ²ê‡ÌÆœZ@   u³H[@   ¬ëÜ.¬\@   «â…ÝŽ¢]@   m™¿ÞM_@   ÄÊÚ‚K`@   x ¶Ã+Ô`@   ¥ê‚À÷a@   _BÛ•Ía@   ˜Û<rI6b@   ‘M,€À†b@   Us…¼b@   ž¼—èõýb@   ˜ÿ!Lî:c@   éíb¦•dc@   âÌVòd@   4SŸ-@d@   ªuQÎgd@   Ž—¥d@   6ýaêÈd@   	…ñ¾íd@   !¸ÒDe@   Þf&ýhe@   Û/ËìSe@   `™T îe@   £“FŒgf@   àø‹>Hf@   ÞP‚¼¾kf@   `E–w®f@   âÆŠöxìf@   äYÑû	g@   §—¥y<g@   1¯‹]cg@   ^Ê‰$ÑÀg@   Žürïg@   ¸£ÙAå-h@   Fa~U…Dh@   þ¡›{h@   ŸåÏ€¥µh@   Z®	¸kÛh@   ³Ñ9Ê[i@   Ø;Íi@   Ü§XÁÉi@   vcmÄ,j@   µçð÷j@   ÇêÛeíÃk@   †Ï2?Sl@   ûeœ l@   ÿšÝÐl@   “Ê¿Öêm@   l  /3"m@   ‘„}QYm@   ævÕ¡r~m@   ô‚nå´¢m@   phçin@   6ÛPÐ[ªn@   ’D–¸Ýn@   ºùû\›o@   ‘«}'o@   ?K^o@   †Í&V‘ƒo@   #8»2l°o@   N°2ðˆp@   ŽçÈ†Ù%p@   ÁTÝ¼èEp@   «äGnÃ\p@   ]½Ÿ‚hp@   kËbƒü~p@   “'xŒÓˆp@   .:Ôl«p@   tŠ°Y€Äp@   3,RÄ	Ûp@   Pn®ñUùp@   l`ˆq@    h&A¹q@   Ç¬°ÆÐ:q@   +%¦Ý Kq@   }y¶Û>dq@   àñÉhByq@   /ç1V„q@   ùag¬Ù”q@   wè‰©q@   õ^e¤l·q@   ñu¢‡UÃq@   \q)Þq@   FŽUºùq@   v	©Ser@   ²LNŸPr@   \Gí5¸Žr@   "	†ø¾r@   ¯p{òr@   •eV„s@   ]D-šs@   sÆË…Ìs@   ´VÊÿXãs@   ½(òýs@   Ã…îét@   xÈj*t@   -Ã6äÍVt@   K#&†˜t@   £E²OÆt@   ªSSp­èt@    ôÚút@   Å»BèTu@    øÍ¹/u@   ~5°Bu@   ×Ú£ì]u@   ŠØ ýku@   öÌoôo…u@   4W¡ü´u@   ëÖÇù)àu@   Á´…þu@   œkÆz=v@   NÇÂÊ1v@   õ¬õ°Yv@   Ò­ôov@   ;…§$ªv@   t·®	Ëv@   “ìñ™Ãßv@   áaÝD–ùv@   ç*oŽ	w@   ìW8w@   -’XvN6w@   øoHqðVw@   ³mÇ,Å‚w@    T‘‡µw@   ÚÖäÁx@   ÎL}LTx@   £þeˆx@   jv¦*Ôx@   Ç¢Xúûx@   yŠZÐx,y@   Ô,¾1ìEy@    õ…Î]y@   Û`¿"my@   Ÿ)–5³y@   ·«8e|²y@   É
+Ü0#Íy@   0L/Iîy@   Žµ¦öÝz@   zwë•ÿ*z@   NòVLa=z@   R¦WƒYz@   í”.ms{z@   !|ÈdÅ£z@   Ôž0Çz@   öô’ðz@   \rø§D {@   ÿœJn?{@   Zþü;o{@   þ [–™¨{@   ÉØ½m8Ä{@   ”lþ|Íã{@   ©dóŒð{@   Ñ˜V	|@   –Ãé¸Ü^|@   0hIÇ–|@   î&ã´|@   Ñ›ySß|@   
+¦ƒ¸é|@   LéNp²
+}@   Ž,‡]¬+}@   ‡*|‚£@}@   uiF«ÿ`}@   `ÌöAþ†}@   jñøx²}@   ÞN”Õ3ü}@   .R×í:~@   ŒsHà¢~@   ïáf,@   Ë™©ÚpG@   —D®œ@   ³T„÷ÝÊ@   ˜æ	€@   ”m0!€@   •ð*€@   ÈK3Ýp7€@   æ9ÓÞQ€@   6VJÿv€@   ‹™GŽ€@   KÈûâ¡Ø€@   cr/nRï€@   wø•ÜÜ@   ˆá~8?@   (hHŠ‹@   Å±ùÅ9©@   ˜Ê‹Î@   ¿<±”ÀV@     z=uß­A!n@Éˆ†]š:V@     z=’ðÎJD!n@¥>À_V@     z=C¥l[I!n@êéÄ½GW@     z=QI¾»*n@ë´÷W@     z=…€`{3òm@’i!ŠvX@     z=ÚsýÖìªm@ü` z,üX@     z=|¯þ®cm@%—2ýR]Y@     z=aÚûcçm@–ª0tS­Y@     z=Ùœ•‹žl@
+18¨Ù¦Y@     z=_e¹ âl@Ñ]§ÛìKY@     z=.Þyk@ÅÛò;ËX@     z=Ihô Ñøj@”ê(2ÀW@     z=½N1 ÓŠj@WÞÆyÍV@     z=«ô¿-Rj@5YhÍšßU@     z=¸û§Xj@“œÑŒD¤U@     z=ƒìÍÐ6Ái@açjiïU@     z=ùâh{Êai@5žœì=¥V@     z=>¶àÄ·ei@I¯-8W@     z=«Ïýli@Ç\	³²W@     z=ÖÉH&ŽMi@¹n"c CX@     z=b¬¹2åTi@&ª	$¹.Y@     z=>n	Vi@|¥®ÕÂZ@     z=v‘Ç©2i@]Ž/t»[@     z=3ç¡à;5i@Ÿ;ŠØ2±[@     z=xÓS9i@4aÜÙ§N\@     z=¸az¶ï'i@>mH½æ\@     z=H},•+(i@rªOù	s]@     z="{ÍN75i@óTó=Ùá]@     z=]Á‰û†i@ÁÇTèS^@     z=EÁÀãi@àÎ¥·^@     z=	€ `|i@JmdïK_@     z=¥‚l1ø i@+³Õ[^_@     z=ƒüG§5i@h 2ðàÀ_@     z=Œøt·i@ª¢x˜¬`@     z=ZÐÑŽi@¾CÁ»¤F`@     z=c«—äi@+ ¦*d`@     z=~âNG©Üh@Ú%Qaœ`@     z=ëgëh@›`s	“Ä`@     z=`%€)œãh@(«&'æð`@     z==aIÐýìh@ ú»ÝIa@     z=ÿ.mÖÄh@Ú£±	ø`@     z=b—qœžh@°0QˆÏ`@     z=â}!¢Œh@TW—•`@     z=žÏ¬2M•h@ž~û+„+`@     z=5hùÈ?h@ž{n«T_@     z=IÔ›XÍ’h@¬îƒ…ý]@     z=Ýíôã"’h@œzl¬2¯\@     z=c™ÐÌa’h@)VtôW[@     z=ÜÁ[AS’h@Gìaò<Z@     z=#/^U’h@¹rÂóY@     z=¯˜dX’h@Êïé«-X@     z=G¥/P’h@E7Kc”€W@     z=aˆo’h@Æ‹¦mßV@     z=œñ8’h@§÷á!Ë_V@     z=«)ÁQ÷’h@ÂØtOÑU@     z=5Òßdh@Ç$wUp¼U@     z=_[X“Mh@šè¸ÃU@     z=uôNLHõg@Ù3ôP¹U@     z=•ifi›g@P½å—ÄU@     z=Ö…À%7Gg@]òk#j¯U@     z= ªFg@"¢iæ¢V@     z=ê]Oåßúf@ü fu©^V@     z=Vºà7öf@¼V¾r§¸V@     z=ž9™•qöf@ÖEºØ7#W@     z=ÝMmTùf@‹#‰•W@     z=Ù¼båáäf@ìÛ–˜%X@     z=Z‹Ôw‰êf@”øÎÛà“X@     z=Íl[vvåf@ÍÂ®æ¸	Y@     z=±è<G
+îf@ÝÌùÌMY@     z=FºÑ†Êf@lÔD#ºY@     z=êŒØéƒÒf@Dl&¦Ã&Z@     z=•¾\ð\Ðf@[‹±ŽZ@     z=] yÈ›Íf@ºª`š“ñZ@     z=~Î.ŸÕf@öú®)[@     z=*CŒ“­f@8>«[@     z=ùƒpÄ¿ºf@ßDïJ\@     z=%•÷Í±f@¢SÐ @¨\@     z=_$W»f@ ˜œ½Í÷\@     z=hgL f@c2,ÄV]@     z=«Ë_Ù¤f@Ä—ÈÌ®]@     z=æK‚ª¢žf@<6f˜^@     z=Õ¶¾S¯f@FUü÷g^@     z=|FÆö¹f@lÝ°^@     z=v&ž%1f@sþµX]@     z=0^'IâRf@óé.-à¬\@     z=áÿ”ÏMf@ÅLâ \@     z=u~
+‘½Nf@³¨I{¯Z@     z=YFÆMf@V)uâ3Y@     z=“N,*Nf@/•„ÑW@     z=%’keNf@wi‡|W@     z=Ñ`›‚ðMf@øêiyÓ¨V@     z=ŸëåùãNf@š‰êú³SV@     z=íÎŸÃ
+Lf@d	¡®óU@     z=÷°µÛTf@àIçC»U@     z=ƒÌ“Y'f@¼ínÚÇU@     z=½æ\ýe@>ZÕ™ÁU@     z=f‚ð—1¢e@áÉ<!ðÄU@     z=‚æ/ê[>e@k‘5ŒÅU@     z=4/+—Õd@ù,Ì~ÃU@     z=e]Tžd@AxÉU@     z=J:pFvd@{cN= ¹U@     z=ðizXGd@tiuƒ V@     z=Ö·àù›9d@þÖFÅàuV@     z=²¼Â[-<d@Ð¢U8üV@     z=÷U4?d@hòË£yW@     z=Ôš4	! d@þöÀ9ÎX@     z=O'pøé#d@aiÅqkqX@     z=ÜS„ëñ#d@oPàÈX@     z=„ËlÔr!d@t”Ç)`Y@     z=ÂìúY¨'d@ÑóQXBY@     z=PV"úëd@G¡ãVÕžY@     z=gói£ád@–¯£}úY@     z=ÊfµÃad@A”‹¢DgZ@     z=°#së
+d@¼çÖ8ÚÑZ@     z=º„ç€Žd@¡‘¾ìÅ[@     z=×Á
+Øtôc@q.*bcu[@     z=ÏûADøc@·AJÞFÌ[@     z=B®&÷c@›`:ëÛ(\@     z=^ˆAéRöc@•gàwŠ\@     z=¶8&t»ùc@0Õç;ÿØ\@     z=enÀ„éc@L‚#]@     z=¸õŠ»ßc@†‹³—d]@     z=ß•ƒˆ;ác@ym¶3²¤]@     z=3u(Ýõßc@R©°´¬é]@     z=¸–¢Äãc@ù¾|z%^@     z=jß­8Úc@ÿ)'Œ`^@     z=ù5‡$uÃc@²8ˆD.;^@     z=À)6ƒc@{–Zú—¹]@     z=§'‰*™c@
+D9Å']@     z=ÄÄE³s‘c@ýŠLà]\@     z=ôÿ~§F•c@…p©Tr[@     z=ìêGã”c@®
+º¿¦Z@     z=3×aµD”c@¬bÂièY@     z=§­‡öI”c@vÝ«tÄX@     z=Ì*™Û“c@‡¸T§¡W@     z=ŠåG3 —c@P¦«]™V@     z=¸öÄºžc@ÞÁô4V@     z=3%@6Kšc@KG/ž¨U@     z=P*cwc@Ë1VÙÛÆU@     z=ws…ÄBc@ö÷/zÁU@     z=„Ò•œec@)5M£ÅU@     z=•¼¯eµb@kðÖv¿U@     z=‘®æxyMb@F‚ð mÌU@     z=†’¾Fìa@'Ð_F°U@     z=ãƒ<ªa@f=æ­ñU@     z=—ÿ7°˜ra@gañƒA^V@     z=¼é-+ƒa@÷©äý»V@     z=ÃÁ8œƒa@ÑUõúìW@     z=ë1l@¢ua@ƒò9ru[W@     z=Ó]ÙÉ_a@fÝ¼þµW@     z=zÕ·ca@ðÿö½ö(X@     z=§ Œn`a@šèö yÇX@     z=µ‰óòma@ü/á¿]Y@     z=:is'úDa@'å o£íY@     z=Ã¯æ.ãLa@Wðp«zYZ@     z=½MFvIa@üÿ»µÔZ@     z=Â¢®&ÿNa@†BL¦6[@     z=Éz…/a@ÑunèØ[@     z=ƒ·HwÓ4a@$(VŽ8s\@     z=)È8±=@a@\.c(]þ\@     z=j%ÿ}Ea@=XT¶âi]@     z=Î¡8lŸ"a@M}kòò»]@     z=rg±a@ 2þaL^@     z=ß.ûIÛ%a@ùÞw—ÔW^@     z=1€,za@ÎiÏfy\^@     z=¹þP6iÆ`@ñN>»²]@     z=Ö£Þ	Æ`@ðË¼8t]@     z=±>Oæ/Æ`@cú\@     z=? 
+W Æ`@è×«Ï
+	[@     z=å7Ò*Æ`@Ô
+$ž¦îY@     z=ö†¡vÆ`@vŸ®ˆ”çX@     z=åî‰‘AÆ`@rË¥
+“X@     z=IèHBªÅ`@!®â
+-W@     z=f (ŒÇ`@	.rV£”V@     z=&’/ˆÂ`@ˆÿØ±ÌV@     z=«þô-“Ì`@¬G`x¹U@     z=9£&­Å²`@g ¦»U@     z=\uˆ~`@CN‰Ú‡ºU@     z=)î‡G`@à ;1»U@     z=¿3i`@³íþºU@     z=c¥½_@Dª†¿M¾U@     z=AL¢ŸÝ_@'O±å¯U@     z=ú}Ÿ^@Ž˜éU@     z=ö¹?^@4>ˆlBV@     z=ÀŸî'ø]@\#æ“±³V@     z=X-ÄÈŒ^@ãá<Û;W@     z=H–ã-L^@CC}ÝrÆW@     z=_è:cÒ]@'‰<dX@     z=×Ñ&™'ß]@tYéwâY@     z=Q«Æ ì]@%/êýf£Y@     z=b¾WÛ~¥]@	â¬EùMZ@     z=cõ`M³]@t9”[@     z=±	ÈÔ°]@þþVý²[@     z=ïÀ½Ó§]@žÃž¦UR\@     z=²Ê—_¾]@ |Áo§\@     z=d—„Ùä]@ :ðØæ]@     z=î_›;‡]@öõž^¨]@     z=9Ð¤ër†]@ë&åV‹„^@     z=<qbˆ\]@ÆBüYih_@     z=™¸.$K]]@ægO*`@×ÿÿÿÿÿy=N‹IHo]@‰Ž½>`@k     z=.‘Òm0]@¾á] Ów`@sÿÿÿÿÿy=íáäÂ6]@|cÐ·¨`@a    z=8‘ö:÷)]@ÜÐbi½é`@féÿÿÿÿy=#CµDäR]@ò)Ï}ka@>    z=ÉG.á\@O°é`@dþÿÿÿy=“3çpÐS\@# ›&f•`@Çz   z=lt")§†\@æÔí0`@@IÖÿÿÿy=<A_ Ús\@WË…[o_@(  z=Õ˜ïdô{\@B.ñú.^@7€þûÿÿy=ÃzZ‚y\@à]ý¶Ê\@üÄö  z=ä,Ãxz\@ÑôïÂd[@cŒ>²ÿÿy=~ñþ˜Bz\@ªÒqw(Z@³GHº  z=”ÑŒT'z\@éœß·#Y@sÚdýÿy= ò~­®z\@Øf%§X@ä•Ëi	 z=ºuÞsÚx\@ŠYUMk#W@°ßœ
+Úÿy=Áå6žå\@‰Ö±YoV@‡umˆA z=Ä$èp\@™|ýu?íU@ÐGkŸ—ÿy=ÊWgÆ‰\@DÓm>?šU@’º×z=[{çy\@h™e1ÑùU@£õ÷~ìáy=_º²Ì/[@2GÖ“ÝV@Lj·[ï‹z=8Z‘©ßZ@ÓÕ¼yX@3.KÒÈw=ß·F)=Z@E{kF>$Y@‘ñÍ} y=iF>ÕBPY@óý@‰tY@ëàØ¬øx=NßcüÍôW@cTÌzªY@áGTéy=lZ{ éV@°¦Ð)§‘Y@¨Òw$lþx=d1åC;U@[­”`wX@†™ø. y=]þUººôS@µU…J%W@ãf×öÿx=Ù€§÷+S@ÞZí¹åmV@ÿÏE¹üÿx=â¿ÒFC>S@¿<±”ÀV@þÿÿÿÿÿx=ZºÞësHS@        null_surface%   %   nullbs%   %         ð¿      ð¿        ã   þ&=«(@ý‹¤!8@âE/0@E–âIŸ<'@ÔßrCÏc+@­C9ì0@<‹üÑK4@Iìsö‘19@ÆZ÷gš=@Œç¶¸A@JeêC@ž†5ZåÎF@ ŠòµH@u“Üõ1I@¤õ]Ï™J@ÈÍ.‹L@ÊRê ïL@ÓÀþõúN@Ò=Ïh®O@¨òoÔ½#P@Õsg»ÎQ@Ô§´‡¨XR@ºbŸrS@a¼³.Ê±S@áÁ#ö6T@!ÙR`¹ÒT@ß•ú«ÆEU@ë¤n‹µU@@n°Ž V@CæûfV@`YÃ”‘½V@Âkµ’•#W@Aµ…û_W@%þåW@1²ÌÑNX@·Îg|¨X@¢¯™H Y@î+ÿ8òOY@S…Õƒ Y@¼N'ŽãðY@aò¼ë"-Z@²ê‡ÌÆœZ@u³H[@¬ëÜ.¬\@«â…ÝŽ¢]@m™¿ÞM_@ÄÊÚ‚K`@x ¶Ã+Ô`@¥ê‚À÷a@_BÛ•Ía@˜Û<rI6b@‘M,€À†b@Us…¼b@ž¼—èõýb@˜ÿ!Lî:c@éíb¦•dc@âÌVòd@4SŸ-@d@ªuQÎgd@Ž—¥d@6ýaêÈd@	…ñ¾íd@!¸ÒDe@Þf&ýhe@Û/ËìSe@`™T îe@£“FŒgf@àø‹>Hf@ÞP‚¼¾kf@`E–w®f@âÆŠöxìf@äYÑû	g@§—¥y<g@1¯‹]cg@^Ê‰$ÑÀg@Žürïg@¸£ÙAå-h@Fa~U…Dh@þ¡›{h@ŸåÏ€¥µh@Z®	¸kÛh@³Ñ9Ê[i@Ø;Íi@Ü§XÁÉi@vcmÄ,j@µçð÷j@ÇêÛeíÃk@†Ï2?Sl@ûeœ l@ÿšÝÐl@“Ê¿Öêm@l  /3"m@‘„}QYm@ævÕ¡r~m@ô‚nå´¢m@phçin@6ÛPÐ[ªn@’D–¸Ýn@ºùû\›o@‘«}'o@?K^o@†Í&V‘ƒo@#8»2l°o@N°2ðˆp@ŽçÈ†Ù%p@ÁTÝ¼èEp@«äGnÃ\p@]½Ÿ‚hp@kËbƒü~p@“'xŒÓˆp@.:Ôl«p@tŠ°Y€Äp@3,RÄ	Ûp@Pn®ñUùp@l`ˆq@ h&A¹q@Ç¬°ÆÐ:q@+%¦Ý Kq@}y¶Û>dq@àñÉhByq@/ç1V„q@ùag¬Ù”q@wè‰©q@õ^e¤l·q@ñu¢‡UÃq@\q)Þq@FŽUºùq@v	©Ser@²LNŸPr@\Gí5¸Žr@"	†ø¾r@¯p{òr@•eV„s@]D-šs@sÆË…Ìs@´VÊÿXãs@½(òýs@Ã…îét@xÈj*t@-Ã6äÍVt@K#&†˜t@£E²OÆt@ªSSp­èt@ ôÚút@Å»BèTu@ øÍ¹/u@~5°Bu@×Ú£ì]u@ŠØ ýku@öÌoôo…u@4W¡ü´u@ëÖÇù)àu@Á´…þu@œkÆz=v@NÇÂÊ1v@õ¬õ°Yv@Ò­ôov@;…§$ªv@t·®	Ëv@“ìñ™Ãßv@áaÝD–ùv@ç*oŽ	w@ìW8w@-’XvN6w@øoHqðVw@³mÇ,Å‚w@ T‘‡µw@ÚÖäÁx@ÎL}LTx@£þeˆx@jv¦*Ôx@Ç¢Xúûx@yŠZÐx,y@Ô,¾1ìEy@ õ…Î]y@Û`¿"my@Ÿ)–5³y@·«8e|²y@É
+Ü0#Íy@0L/Iîy@Žµ¦öÝz@zwë•ÿ*z@NòVLa=z@R¦WƒYz@í”.ms{z@!|ÈdÅ£z@Ôž0Çz@öô’ðz@\rø§D {@ÿœJn?{@Zþü;o{@þ [–™¨{@ÉØ½m8Ä{@”lþ|Íã{@©dóŒð{@Ñ˜V	|@–Ãé¸Ü^|@0hIÇ–|@î&ã´|@Ñ›ySß|@
+¦ƒ¸é|@LéNp²
+}@Ž,‡]¬+}@‡*|‚£@}@uiF«ÿ`}@`ÌöAþ†}@jñøx²}@ÞN”Õ3ü}@.R×í:~@ŒsHà¢~@ïáf,@Ë™©ÚpG@—D®œ@³T„÷ÝÊ@˜æ	€@”m0!€@•ð*€@ÈK3Ýp7€@æ9ÓÞQ€@6VJÿv€@‹™GŽ€@KÈûâ¡Ø€@cr/nRï€@wø•ÜÜ@ˆá~8?@(hHŠ‹@Å±ùÅ9©@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ }  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@     z=uß­A!n@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ~  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@þÿÿÿÿÿx=ZºÞësHS@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:17%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß                       ð?End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 13948 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000384.sab
+BIN000000005190
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+RÁV­8N@þÿÿÿÿÿx=CË ƒ/;C@à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_8	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+RÁV­8N@þÿÿÿÿÿx=CË ƒ/;C@à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_8€          ÿÿ €
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+RÁV­8N@þÿÿÿÿÿx=CË ƒ/;C@à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+RÁV­8N@þÿÿÿÿÿx=CË ƒ/;C@à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:19coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              YRg½õ:`@	      unknown
+RÁV­8N@þÿÿÿÿÿx=CË ƒ/;C@à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß               ð?      ð?id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ   vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%          %              ‚qÛH‚@   y± @@   ¾LL†ÞoF@   UM¿®H@   ö’\ÝŽI@   ‡s¸¿~J@   3²äÛK@   Ç½¥÷K@   ]ý&fCöL@   …ß¥ø„ÀM@   Ñ<€ƒÐËN@   LO8ÐhcO@   ÷
+<öóO@    ‘ä0þ P@   ž;*¤ˆ=P@   ZØJl¨€P@   Y‚GÇ×P@   ö#$ñQ@   µ‘Fx¥]Q@   ˜sƒd”tQ@   ’Íç¼‰£Q@   îæ09R@   ŠƒHÑŒ7R@   ¯cv<Ý^R@   ž‡™*±R@   eRö×R@   ÐÑmbôíR@   Á/Ÿ¨Ð S@   áAoš‘ÀS@   d€lWBT@   ? ŒíU@   Ö	)ôU@   )/tX¨X@   
+ªþÕ§Y@   :Y<÷˜0]@   YRg½õ:`@   Èù'yYZN@þÿÿÿÿÿx==ŽYæW@¯`ô³VZN@þÿÿÿÿÿx=|AÐy
+ŽW@¤|65AZN@þÿÿÿÿÿx=Y‘XÚâT@¹Ñž6à\N@þÿÿÿÿÿx= Ó8˜1&Q@ªbeðšWN@þÿÿÿÿÿx=—÷õJ@éyËS\N@þÿÿÿÿÿx=z}ÏÉG@hÊÕ^šSN@þÿÿÿÿÿx=ZÏžkF@¡
+°›äfN@þÿÿÿÿÿx=¯$ŠrE@RÁV­8N@þÿÿÿÿÿx=	-±%ŽD@‰Ì4ÿ6O@þÿÿÿÿÿx=	M‚ã;:D@¥–e“ÁP@þÿÿÿÿÿx=—ð¬-¼0D@ñ$<]ð}P@þÿÿÿÿÿx=5ŠEbøC@‰°æÌØP@þÿÿÿÿÿx=diqªˆC@~ëag[:Q@þÿÿÿÿÿx=`L-×C@nÕ>HÕoQ@þÿÿÿÿÿx=CË ƒ/;C@4¶)ZŸQ@þÿÿÿÿÿx=Ü£Í|IC@w ­|üÌQ@þÿÿÿÿÿx=õ+_w>C@pwƒÑT R@þÿÿÿÿÿx=¹è™Ž’C@ÍVLpeDR@þÿÿÿÿÿx=§'¦xº›C@¼¯ª}‘R@þÿÿÿÿÿx=³õ+IL‚C@vÖ(A¥¶R@þÿÿÿÿÿx=ä‘¸±°òC@š§¥:ìR@þÿÿÿÿÿx=†ßf#ùêC@†ÇüãV%S@þÿÿÿÿÿx=6Þ©þ(ÝC@LÌ^CMXS@þÿÿÿÿÿx=Þæ=äÀSD@¬ö‹,Ž˜S@þÿÿÿÿÿx=_;J¼BD@Opû›ÓS@þÿÿÿÿÿx=1Åå:<D@ÚjºD¤ýS@þÿÿÿÿÿx=‡!{žyD@úkWÏi3T@þÿÿÿÿÿx=ôßÖD¢D@éC[¹›,T@þÿÿÿÿÿx=2É;ºóD@;‚ò·1T@þÿÿÿÿÿx=`ˆõ˜‰E@ð´æ4.T@þÿÿÿÿÿx=‰9%|gHF@ì¬°»=/T@þÿÿÿÿÿx=›xï)•G@´_
+¢Ð.T@þÿÿÿÿÿx=?Äã/I@Žÿ/T@þÿÿÿÿÿx=^Ö#L@ƒJ±Ú.T@þÿÿÿÿÿx=0¸Q>Â/O@õs#/T@þÿÿÿÿÿx==^R@Ï#¨ì,T@þÿÿÿÿÿx=öá =›T@+—·2T@þÿÿÿÿÿx==îèßV@à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@        null_surface%   %   nullbs%   %         ð¿      ð¿        #   ‚qÛH‚@y± @@¾LL†ÞoF@UM¿®H@ö’\ÝŽI@‡s¸¿~J@3²äÛK@Ç½¥÷K@]ý&fCöL@…ß¥ø„ÀM@Ñ<€ƒÐËN@LO8ÐhcO@÷
+<öóO@ ‘ä0þ P@ž;*¤ˆ=P@ZØJl¨€P@Y‚GÇ×P@ö#$ñQ@µ‘Fx¥]Q@˜sƒd”tQ@’Íç¼‰£Q@îæ09R@ŠƒHÑŒ7R@¯cv<Ý^R@ž‡™*±R@eRö×R@ÐÑmbôíR@Á/Ÿ¨Ð S@áAoš‘ÀS@d€lWBT@? ŒíU@Ö	)ôU@)/tX¨X@
+ªþÕ§Y@:Y<÷˜0]@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ‚  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÈù'yYZN@þÿÿÿÿÿx==ŽYæW@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ƒ  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:19%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß               ð?      ð?End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 4348 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000389.sab
+BIN000000004390
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+à¨CZ€5T@þÿÿÿÿÿx=ZºÞësHS@G¾ÆûjW@þÿÿÿÿÿx=ËJ?:°uX@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6%composite_insulator_model4a_Unnamed_9	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+à¨CZ€5T@þÿÿÿÿÿx=ZºÞësHS@G¾ÆûjW@þÿÿÿÿÿx=ËJ?:°uX@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ %composite_insulator_model4a_Unnamed_9…           ÿ €
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+à¨CZ€5T@þÿÿÿÿÿx=ZºÞësHS@G¾ÆûjW@þÿÿÿÿÿx=ËJ?:°uX@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+à¨CZ€5T@þÿÿÿÿÿx=ZºÞësHS@G¾ÆûjW@þÿÿÿÿÿx=ËJ?:°uX@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:21coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              ‹?,¡œa@@	      unknown
+à¨CZ€5T@þÿÿÿÿÿx=ZºÞësHS@G¾ÆûjW@þÿÿÿÿÿx=ËJ?:°uX@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß               ð?        id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ †  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%                        n-ê6æÚ@   ú™ãR€@   þéùU¥@   Iï
+úµ—@   åc
+v@   lâÐ™û^ @   GjÜÉxÃ"@   ïíMø$@   É8P_ )@   wZåÛå*@   â…Ÿ¥†S-@   UBê§U0@   ×Áïî:3@   ý	“Yêh5@   ³Ÿ…–ÑN7@   O±ýW 9@   ðÓÄ ¾";@   ÷hcuéy<@   ã~ð±¨=@   ‹?,¡œa@@   ¿<±”ÀV@þÿÿÿÿÿx=ZºÞësHS@`vÃåV@þÿÿÿÿÿx=£$3Í€S@H=P>›V@þÿÿÿÿÿx=OR]sÕS@hãÿõV@þÿÿÿÿÿx=¥ú\ÖE0T@{;6^ãV@þÿÿÿÿÿx=ûTƒ.ûpT@»‰p”ªPV@þÿÿÿÿÿx=‚•ŠŠT@Á ³ç–V@þÿÿÿÿÿx=±¤îfžT@Ó1háêV@þÿÿÿÿÿx=®b±ï„¶T@1;K¤®#W@þÿÿÿÿÿx=Z®1ñwæT@ØßÿbÍgW@þÿÿÿÿÿx=¦èž|)U@”Õ¦„cW@þÿÿÿÿÿx=a¿6ù·ˆU@n”âŠbW@þÿÿÿÿÿx=ã_AJàU@G¾ÆûjW@þÿÿÿÿÿx=ý©òU°3V@_”'C/7W@þÿÿÿÿÿx=Ô¸ºi²¢V@Ð¢
+×W@þÿÿÿÿÿx=ˆ$%ìˆ/W@k¿j´N¶V@þÿÿÿÿÿx=atX#¨W@¹žáüOV@þÿÿÿÿÿx=vçv"vñW@l§ÁÇóU@þÿÿÿÿÿx=¥Ê€
+†HX@´¨÷Rä~U@þÿÿÿÿÿx=tG‹ÿéJX@‘]è˜O$U@þÿÿÿÿÿx=Tg<xEtX@”Š^YØ¥T@þÿÿÿÿÿx=ËJ?:°uX@7ô‹à®dT@þÿÿÿÿÿx=ÀUúª5,X@à¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@        null_surface%   %   nullbs%   %         ð¿      ð¿           n-ê6æÚ@ú™ãR€@þéùU¥@Iï
+úµ—@åc
+v@lâÐ™û^ @GjÜÉxÃ"@ïíMø$@É8P_ )@wZåÛå*@â…Ÿ¥†S-@UBê§U0@×Áïî:3@ý	“Yêh5@³Ÿ…–ÑN7@O±ýW 9@ðÓÄ ¾";@÷hcuéy<@ã~ð±¨=@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ‡  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@þÿÿÿÿÿx=ZºÞësHS@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ˆ  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà¨CZ€5T@þÿÿÿÿÿx=—œÛ‰÷W@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:21%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß               ð?        End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 3548 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000394.sab
+BIN000000004392
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+L¤š/PØG@þÿÿÿÿÿx=¢Ï>õ7S@Èù'yYZN@þÿÿÿÿÿx=`ÛvmuX@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_10	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+L¤š/PØG@þÿÿÿÿÿx=¢Ï>õ7S@Èù'yYZN@þÿÿÿÿÿx=`ÛvmuX@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_10Š           ÿ €
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+L¤š/PØG@þÿÿÿÿÿx=¢Ï>õ7S@Èù'yYZN@þÿÿÿÿÿx=`ÛvmuX@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+L¤š/PØG@þÿÿÿÿÿx=¢Ï>õ7S@Èù'yYZN@þÿÿÿÿÿx=`ÛvmuX@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:23coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              VpCêü¬@@	      unknown
+L¤š/PØG@þÿÿÿÿÿx=¢Ï>õ7S@Èù'yYZN@þÿÿÿÿÿx=`ÛvmuX@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß               ð?        id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ ‹  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%                        rÐh	@   àâB×@   uX(jo¼@   Ë@JjÏ®@   o8£z@   ŒðQˆê @   0üO#@   Œ—m¼ƒ%@   -âo‘‹)@   x zhq+@   ~/¿]ß-@   ë,Fn›0@   m–ÿJQ3@   èÞ¢µ°®5@   -t•ò—”7@   †íF9@   j¨Ôü„h;@   Å=sÑ¯¿<@   @S Lxî=@   VpCêü¬@@   7A8¾¡J@þÿÿÿÿÿx=¢Ï>õ7S@+ÏÕ4Ž¡J@þÿÿÿÿÿx=‰+‡úuS@`™Ä H¡J@þÿÿÿÿÿx=ºÓóÊÏS@	õŽ”J@þÿÿÿÿÿx=~F0T@ÈÅgï¥¨J@þÿÿÿÿÿx=üÁóúpT@\}¹	J@þÿÿÿÿÿx=iG­ŠT@Xò€àg€I@þÿÿÿÿÿx=kV?æfžT@LCQs­ÖH@þÿÿÿÿÿx=¢Sñ„¶T@^sÐ×eH@þÿÿÿÿÿx=Èe¾ðwæT@ žµdÕÜG@þÿÿÿÿÿx=„Û|)U@øggåG@þÿÿÿÿÿx=ƒ)%ù·ˆU@Id-bZçG@þÿÿÿÿÿx=IqAJàU@L¤š/PØG@þÿÿÿÿÿx=ÏÄ’U°3V@#ù >H@þÿÿÿÿÿx=2p9l²¢V@Ö®Â€H@þÿÿÿÿÿx=<VÝˆ/W@q"¿Ò?I@þÿÿÿÿÿx=L?#¨W@¿ÆÝavJ@þÿÿÿÿÿx=jJBªuñW@©n%âÄJ@þÿÿÿÿÿx=D¡Ã‡HX@(fÉa§®K@þÿÿÿÿÿx=ã!húâJX@pØ7ÑcL@þÿÿÿÿÿx=ü•+HTtX@¹$êõnM@þÿÿÿÿÿx=`ÛvmuX@tÈ½œöM@þÿÿÿÿÿx=¶	«–1#X@Èù'yYZN@þÿÿÿÿÿx==ŽYæW@        null_surface%   %   nullbs%   %         ð¿      ð¿           rÐh	@àâB×@uX(jo¼@Ë@JjÏ®@o8£z@ŒðQˆê @0üO#@Œ—m¼ƒ%@-âo‘‹)@x zhq+@~/¿]ß-@ë,Fn›0@m–ÿJQ3@èÞ¢µ°®5@-t•ò—”7@†íF9@j¨Ôü„h;@Å=sÑ¯¿<@@S Lxî=@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ Œ  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ7A8¾¡J@þÿÿÿÿÿx=¢Ï>õ7S@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÈù'yYZN@þÿÿÿÿÿx==ŽYæW@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:23%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß               ð?        End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 3550 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000399.sab
+BIN000000014793
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+¢JJ£~þ@¾0KÒÈw=‡¿`ýï-S@Ä½NÿhK@ŽÉ¶[ï‹z=Âì{&Ü*n@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_11	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+¢JJ£~þ@¾0KÒÈw=‡¿`ýï-S@Ä½NÿhK@ŽÉ¶[ï‹z=Âì{&Ü*n@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_11          ÿ  €
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+¢JJ£~þ@¾0KÒÈw=‡¿`ýï-S@Ä½NÿhK@ŽÉ¶[ï‹z=Âì{&Ü*n@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+¢JJ£~þ@¾0KÒÈw=‡¿`ýï-S@Ä½NÿhK@ŽÉ¶[ï‹z=Âì{&Ü*n@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:25coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              —uÍ½Ð@	      unknown
+¢JJ£~þ@¾0KÒÈw=‡¿`ýï-S@Ä½NÿhK@ŽÉ¶[ï‹z=Âì{&Ü*n@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß                       ð?id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ   vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%          å              þd¥C@   ÆÃU„þ@   eS{Ÿ@   Ÿ2òcEt'@   .|‚]u›+@   ì´P1@   iY	¥g4@   vº{eM9@   ó(;¶=@   ¢íj¥ŸÆA@   þ0épk,C@   Ãm¹àÎÜF@   ôyŸ&H@   ‹z`Þ?I@   ºÜ”ã¸§J@   Þ´ž´tL@   à9ŸpŠýL@   0¨‚|ä$N@   è$Sï—%O@   :æ±—²*P@   ag©Õ¯ÕQ@   f›öJ_R@   aVáÔfS@   ì¯õñ¾¸S@   mµaæê=T@   ¬Ì”#®ÙT@   j‰<o»LU@   Þæ1€¼U@   Ë°sƒ'V@   Îþ[©ðmV@   òLX†ÄV@   M_÷UŠ*W@   Ó¨Ç¾T–W@   ÓþÎÜòìW@   Ä¥•ùTX@   ¤ª+q¯X@   4£ÛY@   €AüæVY@   –FÇ˜x§Y@   BiQØ÷Y@   óåþ®4Z@   ‹ÞÉ»£Z@   õØ
+O[@   ?ßÆ"³\@   ÷ÕÇ ƒ©]@   aÛ‚ÓT_@   Ä{oüN`@   AW%¦×`@   nä#"r…a@   Kã<Ña@   aÕÝÓÃ9b@   }GÍá:Šb@   ÔNçŒ¿b@   g¶8Jpc@   aùÂ­h>c@   Õçhc@   ÏÆ÷Süd@   ýL² ¨Cd@   soòeHkd@   W³ø”d@   ÿžÃdÌd@   õ~’ ‚ðd@   ë±sg¾e@   §`Ç^ke@   ¤)lNÎ e@   ):¶šñe@   çíáf@   Ìò,r¸Kf@   §J#9of@   )?7hñ±f@   «À+Xóïf@   }Þú2vg@   “‘FÛ~?g@   ú¨¸ì×fg@   'Ä*†KÄg@   Wöq‡òg@   z£_1h@   3[·ÿGh@   Ç¿h@   hßpâ¹h@   #¨ªæÞh@   |ËÚ+Öi@   ×ÑÜ.€i@   ¥{Hº;Íi@   ?]&§j@   Ý®ˆRr‘j@   ä|ÇgÇk@   Op”¹Vl@   Ä_±ýŠ£l@   Èÿ§ûWÔl@   \Ä`8em@   ú ­%m@   Z~³
+]m@   °pvím@   ½|G/¦m@   9¤Éamn@    Õñ1Ö­n@   Í‹å÷2án@   „óœ¾o@   ÔŠLt÷*o@   Ï­ Åao@   OÇÇ·‡o@   ì1\”æ³o@   2-!Fp@   rd™·–'p@   ¦Ñ­í¥Gp@   aŸ€^p@   A:p5?jp@   OH3´¹€p@   w¤H½Šp@   *­p@   XŠ=Æp@   ©"õÆÜp@   4ë~"ûp@   é0=Eq@   öäöqvq@   ¬)÷<q@   ¢vÞLq@   aö†üeq@   Ånš™ÿzq@   d3†q@   ïÞ7Ý––q@   [ŽÕG«q@   ÈÛ5Õ)¹q@   Õòr¸Åq@   AîùNÁßq@   <_†wûq@   l†y„"r@   –ÉÐÜQr@   RÄ½fur@   éžÙ¶µÀr@   ”_¡8ôr@   ‹š5‡As@   ûý-uê›s@   XCœÀBÎs@   ªÓš0ås@   :ÒX¯ÿs@   §ã§t@   \ðø',t@   #@‹Xt@   / ö¶Ú™t@   ™Â‚€×Çt@   ŽÐ#¡jêt@   Ñ$˜üt@   ¼8u@   –užêÔ0u@   ˆNfmDu@   T«Ô©_u@   …©1ºmu@   ÛI@%-‡u@   +
+(Ò¹¶u@   áS˜*çáu@   ¦1Ý¯B v@   è–«ú v@   DDàò‡3v@   ë‰|&n[v@   ¶ƒ}L±qv@   ö·UØá«v@   óð‡ßÆÌv@   ŠiÂÊ€áv@   ÆÞ­uSûv@   Ì›úŸKw@   â’Qˆõ w@   #)§8w@   îì¢­Xw@   ©ê—]‚„w@   Ña¸Ë¶w@   Ð—¦x@   ÄÉM}ÏUx@   ˆ{^¾"Šx@   `óvÎçÕx@   Ds‰·ýx@   o+6.y@   Ê©Žb©Gy@   ö•Å¶‹_y@   ÑÝìïßny@   –¦ffp‘y@   ­(	–9´y@   ¿‡¬aàÎy@   &ÉÿÍðy@   „2w'›	z@   qô»Æ¼,z@   Do'}?z@   H#(´ÒZz@   ãÿ0}z@   ù˜•‚¥z@   þ™¤ÏíÈz@   þrÅ4Oòz@   RïÈØ"{@   4+A{@   ×Î-ùp{@   õ+ÇVª{@   ÑUŽžõÅ{@   œéÎ­Šå{@    ™4$Jò{@   ÙçÈ|@   Œ@ºé™`|@   7å`z„˜|@   ùŠ¾W ¶|@   Ç„kªá|@    #ç³uë|@   Bf¡o}@   –©WŽi-}@   §L³`B}@   kæÜ¼b}@   VIÇr»ˆ}@   `nÉ©¾³}@   åËdñý}@   6›"«<~@   ”„Cy¤~@   ÷^73é@   Òz.I@   Á~ÍÀ‘@   »ÑT(›Ì@   ›A…0Å
+€@   On"€@   E®Î+€@   CŠ›uO8€@   ix;wïQ€@   ±”oâÝw€@   “Oó1&€@   Æd{€Ù€@   Þ°—1ð€@   ò6þt»@    ç«@@   £¦‚àhŒ@   @ða^ª@   —uÍ½Ð@   :!e¨õ›J@     z=º»ª‘Ç"n@ßáD 1J@     z=Äñ"n@fcÁðgI@     z=ØÙUŸÐ n@-]¥vH@     z=Âì{&Ü*n@õ˜ù[®F@     z=û {'òm@SŒÆi°E@     z=ÅòF¡îªm@ëlÃ$¥D@     z= ¥£€­cm@É××âC@     z=g×”çm@WåàÖBC@     z=­@`íŠžl@zò{ÊOC@     z=êu;&âl@¸¤D@     z=èZ 	yk@PÁÈSWE@     z=è64¡Ñøj@âWOgWG@     z=³® ÓŠj@NTê=ŠI@     z=Dâø¿-Rj@€,Õ0HÞJ@     z=D‹ú§Xj@w½²ôTK@     z=~ÎÐ6Ái@6 Ðø^¾J@     z=^Õh{Êai@–´lòSI@     z=q¸àÄ·ei@ÿ‘¢ #-H@     z=|ªÏýli@7“§8G@     z=ùÉH&ŽMi@;a=F@     z=b¬¹2åTi@Dœ’ƒ@D@     z=>n	Vi@ü¥H økB@     z=v‘Ç©2i@9ÔFã~@@     z=3ç¡à;5i@mò"50v>@     z=xÓS9i@Š\Ú/\ <@     z=¸az¶ï'i@·,*^ 9@     z=H},•+(i@ 8²Ón7@     z="{ÍN75i@«~Ÿ–³5@     z=]Á‰û†i@Û,DZë3@     z=EÁÀãi@ƒ¢ ¥^2@     z=	€ `|i@¿,ºÙË%1@     z=¥‚l1ø i@¢ÿ€ƒ/@     z=ƒüG§5i@À­ïn,@     z=Œøt·i@Û—§-k)@     z=ZÐÑŽi@ê…ƒr«&@     z=c«—äi@Á7V3$@     z=~âNG©Üh@Xd…Ñµ @     z=ëgëh@sÃ.Y@     z=`%€)œãh@× Zx)Ï@     z==aIÐýìh@±B°¥²â@     z=ÿ.mÖÄh@:‡Í(¸ê@     z=b—qœžh@zn.7äú@     z=~!¢Œh@eÓN¹!@     z=žÏ¬2M•h@ÐØßn´½'@     z=5hùÈ?h@Æå#[žÐ/@     z=IÔ›XÍ’h@ª‚“‡åD5@     z=Ýíôã"’h@wö™å0~:@     z=c™ÐÌa’h@
+móÅ)Û?@     z=ÜÁ[AS’h@çâægB@     z=#/^U’h@W!Â—iD@     z=¯˜dX’h@Ò“'BF@     z=G¥/P’h@"‚UœG@     z=aˆo’h@Ùl¢ÞH@     z=œñ8’h@^â‡çÝI@     z=«)ÁQ÷’h@6?¼ªßúJ@     z=5Òßdh@-§· $K@     z=_[X“Mh@®»ÔYrK@     z=uôNLHõg@‰½)O+K@     z=•ifi›g@¶P+ NK@     z=Ö…À%7Gg@ Î„©>K@     z= ªFg@w¬Òþ7ŽJ@     z=ê]Oåßúf@Ã®Ùà*àI@     z=Vºà7öf@BC)æ.,I@     z=ž9™•qöf@ e1WH@     z=ÝMmTùf@‰Å_¹DsG@     z=Ù¼båáäf@Ç8¦žLRF@     z=Z‹Ôw‰êf@„ÿ¼uE@     z=Íl[vvåf@éjHþŠD@     z=±è<G
+îf@ÖV²1JD@     z=FºÑ†Êf@H±7)C@     z=êŒØéƒÒf@BYöOB@     z=•¾\ð\Ðf@KÚzi^€A@     z=] yÈ›Íf@›ä–Vº@@     z=~Î.ŸÕf@–Â±›!J@@     z=*CŒ“­f@ÇþÚž²Ž>@     z=ùƒpÄ¿ºf@‰ÍŽk‚Â<@     z=%•÷Í±f@~’
+ù™:@     z=_$W»f@Ù Ä[9@     z=hgL f@U‚æêß7@     z=«Ë_Ù¤f@ÐìtÈ6@     z=æK‚ª¢žf@³!›Ì4@     z=Õ¶¾S¯f@&ŒZ;›3@     z=|FÆö¹f@©k×˜â4@     z=v&ž%1f@rŸQ¿ÌÚ7@     z=0^'IâRf@ä8âz‡:@     z=áÿ”ÏMf@DÍÜ:=@     z=u~
+‘½Nf@VŸ–9‡>A@     z=YFÆMf@ž»t7D@     z=“N,*Nf@kÆ¦¬túF@     z=%’keNf@¿—Ž…`H@     z=Ñ`›‚ðMf@½ÒØÖKI@     z=ŸëåùãNf@\ÝÐÕöI@     z=íÎŸÃ
+Lf@ÉÍ“‰ ¶J@     z=÷°µÛTf@]×÷&K@     z=ƒÌ“Y'f@QÈTK@     z=½æ\ýe@M<ûËJK@     z=f‚ð—1¢e@ø\,‰K@     z=‚æ/ê[>e@óÍŠ`eK@     z=4/+—Õd@ÉÐL3€K@     z=e]Tžd@FònÅ
+K@     z=J:pFvd@Ò)	Q}+K@     z=ðizXGd@á»Žw\J@     z=Ö·àù›9d@±BA¼±I@     z=²¼Â[-<d@þª„!¥H@     z=	U4?d@ÁÕÀ36ªG@     z=Ôš4	! d@¾$XáƒF@     z=O'pøé#d@ùè¦ºE@     z=ÜS„ëñ#d@ÎOm³½E@     z=„ËlÔr!d@áÇx½lD@     z=ÂìúY¨'d@NN¾'ÍD@     z=PV"úëd@W®ÞÓ_C@     z=gói£ád@Æ‘^Ðr©B@     z=ÊfµÃad@FÈŽ†ôÎA@     z=°#së
+d@Q!øYÉù@@     z=º„ç€Žd@±Í(òña@@     z=×Á
+Øtôc@B'£ne?@     z=ÏûADøc@}Ú"à	>@     z=B®&÷c@A_bê‹—<@     z=^ˆAéRöc@!CÊ·¹;@     z=¶8&t»ùc@¬§þÖ9@     z=enÀ„éc@ÎÁ"ó¬8@     z=¸õŠ»ßc@óÈÉœ¨7@     z=ß•ƒˆ;ác@=+rÈ2¨6@     z=3u(Ýõßc@<‰ÄH”5@     z=¸–¢Äãc@‘å0§¥4@     z=jß­8Úc@!:¯vË¸3@     z=ù5‡$uÃc@Îý*…BN4@     z=À)6ƒc@5‡á­›T6@     z=§'‰*™c@÷Ðf‚¸œ8@     z=ÄÄE³s‘c@¸íezÃ;@     z=ôÿ~§F•c@b¦D2=?@     z=ìêGã”c@CÍ‘WþOA@     z=3×aµD”c@ù˜àFªÌB@     z=§­‡öI”c@Þ5NâPE@     z=Ì*™Û“c@â4"/ZG@     z=ŠåG3 —c@ÄYtÂjI@     z=¸öÄºžc@ m¼aesJ@     z=3%@6Kšc@%ÚmALK@     z=P*cwc@3ùÆK@     z=ws…ÄBc@Ýè·k‰K@     z=„Ò•œec@h²;17K@     z=•¼¯eµb@®ÅK@     z=‘®æxyMb@/ìÄÉ£K@     z=†’¾Fìa@¢ñ<K@     z=ãƒ<ªa@îuÙobºJ@     z=—ÿ7°˜ra@ß-ÃÃúàI@     z=¼é-+ƒa@¾œ”‚%I@     z=ÃÁ8œƒa@E»Õ£wH@     z=È1l@¢ua@™2ç’æG@     z=Ó]ÙÉ_a@Å5,’1G@     z=zÕ·ca@¾ð·OKF@     z=§ Œn`a@y¸É‹E@     z=µ‰óòma@˜ÎG	þáC@     z=:is'úDa@¦&dí6ÂB@     z=Ã¯æ.ãLa@ñÄtˆêA@     z=àMFvIa@_ð-Æô@@     z=Â¢®&ÿNa@LÕ!310@@     z=Éz…/a@
+’5[×=@     z=ƒ·HwÓ4a@sAó]n;@     z=)È8±=@a@[(¿õ†A9@     z=j%ÿ}Ea@‚€ú½p“7@     z=Î¡8lŸ"a@AìÍ/K6@     z=rg±a@ËSÊí4@     z=».ûIÛ%a@°dl9©Û3@     z=T€,za@#:üÉ3@     z=¹þP6iÆ`@Ížp6@     z=Ö£Þ	Æ`@{±X´*Ù8@     z=Ž>Oæ/Æ`@$S.¯·Ä<@     z=? 
+W Æ`@AN,h‹@@     z=å7Ò*Æ`@ÍÚ]0ÀB@     z=ö†¡vÆ`@³±HºTÎD@     z=åî‰‘AÆ`@žYZ¶WŽF@     z=IèHBªÅ`@@”jhCH@     z=f (ŒÇ`@”Á7tI@     z=&’/ˆÂ`@œñógäuJ@     z=«þô-“Ì`@qaåªŒ*K@     z=9£&­Å²`@€"e–1&K@     z=\uˆ~`@CT“n(K@     z=)î‡G`@Å¥U'K@     z=¿3i`@–ŠÊÍW)K@     z=c¥½_@Bœ˜Lâ K@     z=AL¢ŸÝ_@mÀi²=K@     z=ú}Ÿ^@™Ø{¯LÊJ@     z=ö¹?^@`î(»¤J@     z=ÀŸî'ø]@ªÙ£6I@     z=X-ÄÈŒ^@ÕãQÇ%H@     z=H–ã-L^@5j«˜G@     z=_è:cÒ]@mÞ€ŸÕE@     z=×Ñ&™'ß]@Ó=ÓÛ¸…D@     z=Q«Æ ì]@+’ÑÏ¯VC@     z=b¾WÛ~¥]@á,L@‹B@     z=cõ`M³]@Œ}£´U–@@     z=±	ÈÔ°]@™å7?o>@     z=ïÀ½Ó§]@ýÒÐü¤ñ;@     z=²Ê—_¾]@ØðEL?:@     z=d—„Ùä]@wùŠ3`'9@     z=î_›;‡]@×	Ðˆƒ™6@     z=9Ð¤ër†]@¯E·;Î(3@     z=<qbˆ\]@¡«µ^¬2/@     z=™¸.$K]]@R`8RÃ)@×ÿÿÿÿÿy=N‹IHo]@>«¯U•&@k     z=.‘Òm0]@Ä§¹(Çø"@sÿÿÿÿÿy=íáäÂ6]@NxÎPôÔ@a    z=8‘ö:÷)]@ÜgÕ0A´@féÿÿÿÿy=#CµDäR]@¢JJ£~þ@>    z=ÉG.á\@xMY8É@dþÿÿÿy=“3çpÐS\@[¿çÄ”!@Çz   z=lt")§†\@¤sj]g'@@IÖÿÿÿy=<A_ Ús\@©f	û.@(  z=Ž˜ïdô{\@6(‡/4@7€þûÿÿy=P{Z‚y\@£hVg#:@üÄö  z=á,Ãxz\@ÓŸx×ï§?@cŒ>²ÿÿy=Öúþ˜Bz\@7HÂÜBLB@³GHº  z=ÄºŒT'z\@Ãæ[zVD@¥Údýÿy=)N­®z\@xØ€/vF@ä•Ëi	 z=iMÝsÚx\@DÛû0§VH@áßœ
+Úÿy=;žå\@OÑøgÊ¾I@$umˆA z=¢•èp\@è¨¬ßþÂJ@3HkŸ—ÿy=•,tÆ‰\@Ä½NÿhK@†Žº×z=zçy\@4¯WiÛ©J@ø~ìáy=Öl¶Ì/[@T*VâH@ŽÉ¶[ï‹z=Ÿ|&€©ßZ@ÿw`¯‹fF@¾0KÒÈw=“?½‹)=Z@1iè UD@ò¶} y=mÿÄF@PY@jˆ²k´C@¾âýØ¬øx=T`ÆÑôW@ïP5Û…HC@smNSéy=!ÂRŠéV@ØÉ¶‰AzC@)•u)lþx=úÉyÅÌ;U@X{gJø®E@ùœtï- y=}'”nòS@q\#û©YH@óönxöÿx=‡¿`ýï-S@ÝÓÄú½ÎI@ÃW²Žüÿx=çòPø¾3S@7A8¾¡J@þÿÿÿÿÿx=¢Ï>õ7S@        null_surface%   %   nullbs%   %         ð¿      ð¿        ã   þd¥C@ÆÃU„þ@eS{Ÿ@Ÿ2òcEt'@.|‚]u›+@ì´P1@iY	¥g4@vº{eM9@ó(;¶=@¢íj¥ŸÆA@þ0épk,C@Ãm¹àÎÜF@ôyŸ&H@‹z`Þ?I@ºÜ”ã¸§J@Þ´ž´tL@à9ŸpŠýL@0¨‚|ä$N@è$Sï—%O@:æ±—²*P@ag©Õ¯ÕQ@f›öJ_R@aVáÔfS@ì¯õñ¾¸S@mµaæê=T@¬Ì”#®ÙT@j‰<o»LU@Þæ1€¼U@Ë°sƒ'V@Îþ[©ðmV@òLX†ÄV@M_÷UŠ*W@Ó¨Ç¾T–W@ÓþÎÜòìW@Ä¥•ùTX@¤ª+q¯X@4£ÛY@€AüæVY@–FÇ˜x§Y@BiQØ÷Y@óåþ®4Z@‹ÞÉ»£Z@õØ
+O[@?ßÆ"³\@÷ÕÇ ƒ©]@aÛ‚ÓT_@Ä{oüN`@AW%¦×`@nä#"r…a@Kã<Ña@aÕÝÓÃ9b@}GÍá:Šb@ÔNçŒ¿b@g¶8Jpc@aùÂ­h>c@Õçhc@ÏÆ÷Süd@ýL² ¨Cd@soòeHkd@W³ø”d@ÿžÃdÌd@õ~’ ‚ðd@ë±sg¾e@§`Ç^ke@¤)lNÎ e@):¶šñe@çíáf@Ìò,r¸Kf@§J#9of@)?7hñ±f@«À+Xóïf@}Þú2vg@“‘FÛ~?g@ú¨¸ì×fg@'Ä*†KÄg@Wöq‡òg@z£_1h@3[·ÿGh@Ç¿h@hßpâ¹h@#¨ªæÞh@|ËÚ+Öi@×ÑÜ.€i@¥{Hº;Íi@?]&§j@Ý®ˆRr‘j@ä|ÇgÇk@Op”¹Vl@Ä_±ýŠ£l@Èÿ§ûWÔl@\Ä`8em@ú ­%m@Z~³
+]m@°pvím@½|G/¦m@9¤Éamn@ Õñ1Ö­n@Í‹å÷2án@„óœ¾o@ÔŠLt÷*o@Ï­ Åao@OÇÇ·‡o@ì1\”æ³o@2-!Fp@rd™·–'p@¦Ñ­í¥Gp@aŸ€^p@A:p5?jp@OH3´¹€p@w¤H½Šp@*­p@XŠ=Æp@©"õÆÜp@4ë~"ûp@é0=Eq@öäöqvq@¬)÷<q@¢vÞLq@aö†üeq@Ånš™ÿzq@d3†q@ïÞ7Ý––q@[ŽÕG«q@ÈÛ5Õ)¹q@Õòr¸Åq@AîùNÁßq@<_†wûq@l†y„"r@–ÉÐÜQr@RÄ½fur@éžÙ¶µÀr@”_¡8ôr@‹š5‡As@ûý-uê›s@XCœÀBÎs@ªÓš0ås@:ÒX¯ÿs@§ã§t@\ðø',t@#@‹Xt@/ ö¶Ú™t@™Â‚€×Çt@ŽÐ#¡jêt@Ñ$˜üt@¼8u@–užêÔ0u@ˆNfmDu@T«Ô©_u@…©1ºmu@ÛI@%-‡u@+
+(Ò¹¶u@áS˜*çáu@¦1Ý¯B v@è–«ú v@DDàò‡3v@ë‰|&n[v@¶ƒ}L±qv@ö·UØá«v@óð‡ßÆÌv@ŠiÂÊ€áv@ÆÞ­uSûv@Ì›úŸKw@â’Qˆõ w@#)§8w@îì¢­Xw@©ê—]‚„w@Ña¸Ë¶w@Ð—¦x@ÄÉM}ÏUx@ˆ{^¾"Šx@`óvÎçÕx@Ds‰·ýx@o+6.y@Ê©Žb©Gy@ö•Å¶‹_y@ÑÝìïßny@–¦ffp‘y@­(	–9´y@¿‡¬aàÎy@&ÉÿÍðy@„2w'›	z@qô»Æ¼,z@Do'}?z@H#(´ÒZz@ãÿ0}z@ù˜•‚¥z@þ™¤ÏíÈz@þrÅ4Oòz@RïÈØ"{@4+A{@×Î-ùp{@õ+ÇVª{@ÑUŽžõÅ{@œéÎ­Šå{@ ™4$Jò{@ÙçÈ|@Œ@ºé™`|@7å`z„˜|@ùŠ¾W ¶|@Ç„kªá|@ #ç³uë|@Bf¡o}@–©WŽi-}@§L³`B}@kæÜ¼b}@VIÇr»ˆ}@`nÉ©¾³}@åËdñý}@6›"«<~@”„Cy¤~@÷^73é@Òz.I@Á~ÍÀ‘@»ÑT(›Ì@›A…0Å
+€@On"€@E®Î+€@CŠ›uO8€@ix;wïQ€@±”oâÝw€@“Oó1&€@Æd{€Ù€@Þ°—1ð€@ò6þt»@ ç«@@£¦‚àhŒ@@ða^ª@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ‘  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:!e¨õ›J@     z=º»ª‘Ç"n@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ’  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ7A8¾¡J@þÿÿÿÿÿx=¢Ï>õ7S@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:25%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß                       ð?End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 13950 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000404.sab
+BIN000000005192
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+RÁV­8N@     z=Fn‘ÞúÉk@à¨CZ€5T@     z=î„[áW{q@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_12	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+RÁV­8N@     z=Fn‘ÞúÉk@à¨CZ€5T@     z=î„[áW{q@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_12”          ÿÿ €
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+RÁV­8N@     z=Fn‘ÞúÉk@à¨CZ€5T@     z=î„[áW{q@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+RÁV­8N@     z=Fn‘ÞúÉk@à¨CZ€5T@     z=î„[áW{q@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:27coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              YRg½õ:`@	      unknown
+RÁV­8N@     z=Fn‘ÞúÉk@à¨CZ€5T@     z=î„[áW{q@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß               ð?      ð?id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ •  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%          %              ÅqÛH‚@   y± @@   ÌLL†ÞoF@   UM¿®H@   ö’\ÝŽI@   ‡s¸¿~J@   A²äÛK@   Õ½¥÷K@   ký&fCöL@   “ß¥ø„ÀM@   ß<€ƒÐËN@   ZO8ÐhcO@   <öóO@   '‘ä0þ P@   ¥;*¤ˆ=P@   aØJl¨€P@   `‚GÇ×P@   $$ñQ@   Ã‘Fx¥]Q@   Ÿsƒd”tQ@    Íç¼‰£Q@   õæ09R@   ™ƒHÑŒ7R@   ¶cv<Ý^R@   ¬‡™*±R@   lRö×R@   åÑmbôíR@   Ï/Ÿ¨Ð S@   ïAoš‘ÀS@   k€lWBT@   )? ŒíU@   Ý	)ôU@   8/tX¨X@   PªþÕ§Y@   :Y<÷˜0]@   YRg½õ:`@   Èù'yYZN@     z=z-¸öoÒk@¡`ô³VZN@     z=ö—fvþk@–|65AZN@     z=öóvwTm@ÇÑž6à\N@     z=Ób×b2o@ªbeðšWN@     z=e+}ñþƒp@éyËS\N@     z=Ô\âƒép@hÊÕ^šSN@     z=qÄ+ð[q@¡
+°›äfN@     z=nh=l4q@RÁV­8N@     z=·xi/ùPq@—Ì4ÿ6O@     z=­TOUv[q@¥–e“ÁP@     z=G 
+L¦\q@ñ$<]ð}P@     z=ívÅ»cq@‰°æÌØP@     z=(q‘¨qq@~ëag[:Q@     z=Fì¢pq@uÕ>HÕoQ@     z=î„[áW{q@4¶)ZŸQ@     z=Öé%âšyq@w ­|üÌQ@     z=ï=Úåîzq@pwƒÑT R@     z=QŒ‚þkpq@ÍVLpeDR@     z=eÙª‚Foq@¼¯ª}‘R@     z=”šHtrq@vÖ(A¥¶R@     z=Œˆ»gdq@š§¥:ìR@     z=_ÂR­^eq@†ÇüãV%S@     z=Œbê±gq@SÌ^CMXS@     z=tá7µEXq@¬ö‹,Ž˜S@     z=ìVöNfZq@Vpû›ÓS@     z=«åÂ6[q@ÚjºD¤ýS@     z=: ŠSq@úkWÏi3T@     z=6¬ã6uNq@âC[¹›,T@     z="%ØŽFDq@B‚ò·1T@     z=A’³Š1q@ð´æ4.T@     z=)÷:â°q@ó¬°»=/T@     z=<¯Ìðp@´_
+¢Ð.T@     z=gGÕÁp@Žÿ/T@     z=‘òë\^p@ƒJ±Ú.T@     z=¥Îê‹ùo@õs#/T@     z=µ¯`¢ÌÄn@Ï#¨ì,T@     z=²³Ýwm@+—·2T@     z=æm`,‡Ul@à¨CZ€5T@     z=Fn‘ÞúÉk@        null_surface%   %   nullbs%   %         ð¿      ð¿        #   ÅqÛH‚@y± @@ÌLL†ÞoF@UM¿®H@ö’\ÝŽI@‡s¸¿~J@A²äÛK@Õ½¥÷K@ký&fCöL@“ß¥ø„ÀM@ß<€ƒÐËN@ZO8ÐhcO@<öóO@'‘ä0þ P@¥;*¤ˆ=P@aØJl¨€P@`‚GÇ×P@$$ñQ@Ã‘Fx¥]Q@Ÿsƒd”tQ@ Íç¼‰£Q@õæ09R@™ƒHÑŒ7R@¶cv<Ý^R@¬‡™*±R@lRö×R@åÑmbôíR@Ï/Ÿ¨Ð S@ïAoš‘ÀS@k€lWBT@)? ŒíU@Ý	)ôU@8/tX¨X@PªþÕ§Y@:Y<÷˜0]@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ –  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÈù'yYZN@     z=z-¸öoÒk@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ —  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà¨CZ€5T@     z=Fn‘ÞúÉk@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:27%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß               ð?      ð?End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 4350 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000409.sab
+BIN000000004392
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+à¨CZ€5T@     z=/—_†£Šk@G¾ÆûjW@     z=uß­A!n@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_13	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+à¨CZ€5T@     z=/—_†£Šk@G¾ÆûjW@     z=uß­A!n@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_13™           ÿ €
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+à¨CZ€5T@     z=/—_†£Šk@G¾ÆûjW@     z=uß­A!n@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+à¨CZ€5T@     z=/—_†£Šk@G¾ÆûjW@     z=uß­A!n@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:29coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              }?,¡œa@@	      unknown
+à¨CZ€5T@     z=/—_†£Šk@G¾ÆûjW@     z=uß­A!n@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß               ð?        id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ š  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%                        n-ê6æÚ@   s™ãR€@   þéùU¥@   Iï
+úµ—@   åc
+v@   lâÐ™û^ @   GjÜÉxÃ"@   ïíMø$@   8P_ )@   wZåÛå*@   â…Ÿ¥†S-@   UBê§U0@   ×Áïî:3@   ý	“Yêh5@   ³Ÿ…–ÑN7@   3±ýW 9@   ðÓÄ ¾";@   Ûhcuéy<@   ã~ð±¨=@   }?,¡œa@@   ¿<±”ÀV@     z=uß­A!n@`vÃåV@     z=\ªå¼,n@H=P>›V@     z=%ÖôÁÚm@hãÿõV@     z=Z¿P¸X­m@{;6^ãV@     z=3’=þŒm@»‰p”ªPV@     z=é|4Þo€m@Á ³ç–V@     z=Nêp,Hvm@Ó1háêV@     z=O‹¦+9jm@1;K¤®#W@     z=veæª?Rm@ØßÿbÍgW@     z=OÈ/å´0m@”Õ¦„cW@     z=ùÜã¦m@n”âŠbW@     z=®µÏ‚VÕl@G¾ÆûjW@     z=¯ç…x£«l@_”'C/7W@     z=Cà¡n"tl@Ð¢
+×W@     z=bªl-·-l@k¿j´N¶V@     z=hSjñk@¹žáüOV@     z=äÈC’ÀÌk@l§ÁÇóU@     z=^×>ž8¡k@´¨÷Rä~U@     z=ó˜¹£ k@‘]è˜O$U@     z=ëaçX‹k@”Š^YØ¥T@     z=/—_†£Šk@7ô‹à®dT@     z=¿Î`¯k@à¨CZ€5T@     z=Fn‘ÞúÉk@        null_surface%   %   nullbs%   %         ð¿      ð¿           n-ê6æÚ@s™ãR€@þéùU¥@Iï
+úµ—@åc
+v@lâÐ™û^ @GjÜÉxÃ"@ïíMø$@8P_ )@wZåÛå*@â…Ÿ¥†S-@UBê§U0@×Áïî:3@ý	“Yêh5@³Ÿ…–ÑN7@3±ýW 9@ðÓÄ ¾";@Ûhcuéy<@ã~ð±¨=@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ›  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@     z=uß­A!n@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ œ  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà¨CZ€5T@     z=Fn‘ÞúÉk@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:29%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß               ð?        End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 3550 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000414.sab
+BIN000000004392
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+V6©/PØG@     z=èÎÃâÄŠk@Èù'yYZN@     z=º»ª‘Ç"n@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_14	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+V6©/PØG@     z=èÎÃâÄŠk@Èù'yYZN@     z=º»ª‘Ç"n@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_14ž           ÿ €
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+V6©/PØG@     z=èÎÃâÄŠk@Èù'yYZN@     z=º»ª‘Ç"n@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+V6©/PØG@     z=èÎÃâÄŠk@Èù'yYZN@     z=º»ª‘Ç"n@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:31coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              «Žï0@@	      unknown
+V6©/PØG@     z=èÎÃâÄŠk@Èù'yYZN@     z=º»ª‘Ç"n@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß               ð?        id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ Ÿ  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%                        	¶*kY<@   ÷¥ÙÆá@   @K	”Ö@   ‹3+”oÈ@   :+„¤/7@   „áfXw @   •Œì–ÕÛ"@   à^Ñm%@   ‚[`,a)@   Í™j²8þ*@   Ó¨¯rãk-@   •S¤PÖa0@   ÓwUi3@   ’Àu5@   ×°ýÿZ7@   ÈÂ…÷…9@   øäLí.;@   pzëÛ†<@   ë˜Và´=@   «Žï0@@   :!e¨õ›J@     z=º»ª‘Ç"n@‘ÆgÉ(žJ@     z=Z_sý.n@-2,;v¡J@     z=­öâ[@Ûm@:M—ƒ”J@     z=‹aÏ©X­m@«ìúê©¨J@     z=4{RþŒm@Ÿ³J@     z=G¢8Ûo€m@Sùhh€I@     z=-Hvm@oôS­ÖH@     z=HW}+9jm@~ÐšßeH@     z=\ƒðª?Rm@ ¶`ÕÜG@     z=HÞ)å´0m@Õ7ûgåG@     z=¦%é¦m@Ñ>
+bZçG@     z=‚nÇ‚VÕl@V6©/PØG@     z=Kµx£«l@,œñ >H@     z=x²bm"tl@…*°Â€H@     z=©Ô4·-l@V©!¿Ò?I@     z=™7Ùjñk@;ÝÝavJ@     z=ì^ÎÀÌk@/n%âÄJ@     z=¤¹®Á7¡k@zgÉa§®K@     z=§+K&
+ k@*Ø7ÑcL@     z=žqiQ‹k@ã$êõnM@     z=èÎÃâÄŠk@‚È½œöM@     z=Ï·)Øâ³k@Èù'yYZN@     z=z-¸öoÒk@        null_surface%   %   nullbs%   %         ð¿      ð¿           	¶*kY<@÷¥ÙÆá@@K	”Ö@‹3+”oÈ@:+„¤/7@„áfXw @•Œì–ÕÛ"@à^Ñm%@‚[`,a)@Í™j²8þ*@Ó¨¯rãk-@•S¤PÖa0@ÓwUi3@’Àu5@×°ýÿZ7@ÈÂ…÷…9@øäLí.;@pzëÛ†<@ë˜Và´=@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ    
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:!e¨õ›J@     z=º»ª‘Ç"n@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ¡  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÈù'yYZN@     z=z-¸öoÒk@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:31%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß               ð?        End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 3550 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000419.sab
+BIN000000003177
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+¿<±”ÀV@     z=uß­A!n@¿<±”ÀV@     z='„–s(Ÿq@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_15	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+¿<±”ÀV@     z=uß­A!n@¿<±”ÀV@     z='„–s(Ÿq@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_15£           ÿÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+¿<±”ÀV@     z=uß­A!n@¿<±”ÀV@     z='„–s(Ÿq@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+¿<±”ÀV@     z=uß­A!n@¿<±”ÀV@     z='„–s(Ÿq@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:33coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              d£tæ<tD@	      unknown
+¿<±”ÀV@     z=uß­A!n@¿<±”ÀV@     z='„–s(Ÿq@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?      ð?        id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ ¤  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      straight%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@     z='„–s(Ÿq@                      ð¿%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ¥  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@     z='„–s(Ÿq@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ¦  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@     z=uß­A!n@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:33%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?      ð?        End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 2335 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000424.sab
+BIN000000003177
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+:!e¨õ›J@     z=º»ª‘Ç"n@:!e¨õ›J@     z=M;Iq@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_16	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+:!e¨õ›J@     z=º»ª‘Ç"n@:!e¨õ›J@     z=M;Iq@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_16¨           ÿÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+:!e¨õ›J@     z=º»ª‘Ç"n@:!e¨õ›J@     z=M;Iq@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+:!e¨õ›J@     z=º»ª‘Ç"n@:!e¨õ›J@     z=M;Iq@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:35coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              €S-t]D@	      unknown
+:!e¨õ›J@     z=º»ª‘Ç"n@:!e¨õ›J@     z=M;Iq@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?      ð?        id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ ©  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      straight%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:!e¨õ›J@     z=M;Iq@                      ð¿%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ª  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:!e¨õ›J@     z=M;Iq@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ «  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:!e¨õ›J@     z=º»ª‘Ç"n@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:35%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?      ð?        End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 2335 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000429.sab
+BIN000000005092
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+!|ér_§Q@     z=BJžq@@žóY@     z=„ö«às@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_17	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+!|ér_§Q@     z=BJžq@@žóY@     z=„ö«às@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_17­            ÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+!|ér_§Q@     z=BJžq@@žóY@     z=„ö«às@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+!|ér_§Q@     z=BJžq@@žóY@     z=„ö«às@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:37coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              î¸ÞQ@	      unknown
+!|ér_§Q@     z=BJžq@@žóY@     z=„ö«às@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?                id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ ®  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%          #              ù‹ú^S@   „£Ë@   ®ÒŽ)@   ÿ¥@L­@   ëQxú*@    Ù$l¨¼-@   üÚŽR½G0@   û(‡®ÀB2@   þ bt8Ù2@   OÒ>™vž5@   8Äèkm7@   ã³A×Æ`9@   šÇX…=U<@   ÅÌÜÇ>@   æï=Ój@@   ¶ä¨ ÒA@   |,‰¤œQA@   ŠJh“¯øB@   Ÿ¿^åë(D@   *Œ¶y†,G@   5¸˜v¢KH@   KHMfvÀH@   *Œý+TI@   Qþ‚åá¸I@   cü{bXJ@   :éý®ËGK@   %²B¦îTL@   )kÝwçM@   Ë… [÷N@   óZ)vO@   ŒeÈÁf½O@   È=`(#P@   ©ì{V±^P@   î¸ÞQ@   !|ér_§Q@     z=¿¦•µÿßs@Ä<:üŠ×Q@     z=}_"¶ÿßs@×žµ×ý&R@     z=ix
+·ÿßs@õÆyÛ—R@     z=ÿºô±ÿßs@ÏG1ÜõõR@     z=@`²Ãÿßs@tŽ´GÆS@     z=Û¶·<ÿßs@ÃÚÏŸ’T@     z=‹õÄàs@¼=yv£_U@     z=ôšÄûßs@P²{{|ÅU@     z=Å4às@šÜ2Å-V@     z=©N(K¶ßs@îâE¤ŒV@     z=„ö«às@éÀ‰§óV@     z=Td­ù‚Ós@˜cQù…tW@     z=<?“÷0Çs@Åð“XðïW@     z=ý$á´s@ Õ
+@tX@     z=”C*7Òžs@-g0ÙÌÊX@     z=¤[Š¯|s@ÌàðX@     z=I1ßr_s@ðY@     z=¨mÜ™`Ls@&Þ›3Y@     z=öH ß0s@÷ÛcvþY@     z=åafExs@Ì’S=Y@     z=–;%÷òÐr@”0Öí8Y@     z=ù¾UÛ.˜r@Ê’'ÜÄY@     z= 7Ÿ¼5gr@Ê)ª¦8Y@     z=Q;Pï5Pr@UJ"ZÆY@     z=oµ	Ar@@žóY@     z=û=X€+.r@á™ÇûgðX@     z=€Y2˜ƒr@"iÕŽ±X@     z=ö‚ŸI­r@u‘5‚ÓœX@     z=©Tˆ}Æçq@gÀtàrFX@     z=Ízè°Òq@^jÎ^3X@     z=¾»CÌY¹q@®o†jPŽW@     z=$Ð×q8±q@ Å³pOAW@     z=Õf É¤q@I³§±üV@     z=BJžq@ä2†”V@     z=¥AN q@¼~DV@     z=e<g-ŽŸq@¿<±”ÀV@     z='„–s(Ÿq@        null_surface%   %   nullbs%   %         ð¿      ð¿        !   ù‹ú^S@„£Ë@®ÒŽ)@ÿ¥@L­@ëQxú*@ Ù$l¨¼-@üÚŽR½G0@û(‡®ÀB2@þ bt8Ù2@OÒ>™vž5@8Äèkm7@ã³A×Æ`9@šÇX…=U<@ÅÌÜÇ>@æï=Ój@@¶ä¨ ÒA@|,‰¤œQA@ŠJh“¯øB@Ÿ¿^åë(D@*Œ¶y†,G@5¸˜v¢KH@KHMfvÀH@*Œý+TI@Qþ‚åá¸I@cü{bXJ@:éý®ËGK@%²B¦îTL@)kÝwçM@Ë… [÷N@óZ)vO@ŒeÈÁf½O@È=`(#P@©ì{V±^P@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ¯  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ!|ér_§Q@     z=¿¦•µÿßs@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ °  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿<±”ÀV@     z='„–s(Ÿq@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:37%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?                End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 4250 
+$end 'sab'
+$begin 'sab'
+Design_0.setup/NativeGeometryFiles/0000434.sab
+BIN000000004692
+ACIS BinaryFileð
+             SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+49J6BFAQKEABUFDD6JYDFGWUQ_2UKNE5CWA3CPRP47A4CQE64KAR3	body%      ÿÿÿÿÿÿÿÿÿÿÿÿ       ÿÿÿÿ   
+*ÁT~‰D@     z=ñà§Cšq@!|ér_§Q@     z=3Déiás@string_attrib%   name_attrib%   gen%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¦îß ATTRIB_XACIS_NAME%6&composite_insulator_model4a_Unnamed_18	lump%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ       
+*ÁT~‰D@     z=ñà§Cšq@!|ér_§Q@     z=3Déiás@transform%   ÿÿÿÿÿÿÿÿ      ð?                              ð?                              ð?                              ð?properties%	   ansoft%
+   %   ÿÿÿÿÿÿÿÿ          ¥îÛ &composite_insulator_model4a_Unnamed_18²            ÿ€
+shell%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      
+*ÁT~‰D@     z=ñà§Cšq@!|ér_§Q@     z=3Déiás@integer_attrib%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LINEWEIGHT%13    	wire%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	      ÿÿÿÿ
+*ÁT~‰D@     z=ñà§Cšq@!|ér_§Q@     z=3Déiás@%   %   %   %   ÿÿÿÿÿÿÿÿ
+          ¦îß ATTRIB_XACIS_ID%15DE:39coedge%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ	   	   ÿÿÿÿ      ÿÿÿÿ%   %   %   %   ÿÿÿÿÿÿÿÿ          ¦îß ATTRIB_XACIS_LAYER%17    	edge%      ÿÿÿÿÿÿÿÿÿÿÿÿ              ²kùâòP@	      unknown
+*ÁT~‰D@     z=ñà§Cšq@!|ér_§Q@     z=3Déiás@rgb_color%   st%   %   ÿÿÿÿÿÿÿÿÿÿÿÿ
+       Æîß       ð?                id%   %
+   %   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ   ¥îÛ ³  vertex%      ÿÿÿÿÿÿÿÿÿÿÿÿ      %      ÿÿÿÿÿÿÿÿÿÿÿÿ      intcurve%   
+curve%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿexactcur%           	nubs%                        ý›¤Ý+½@   p§ƒ,F@   
+é¶mÌ$@   2)d5)@   	¨méðs.@   yX?øØ£1@   j·‚º~35@   }À—8°“7@   .¯þ´Ù9@   ª~ù<@   Ô°.Nr>@   èÆs	@@   ¡+lÂ2Õ@@   ,ÕWhè¹A@   âëšW<‹B@   ›ù+ñ»E@   ®‘­1qF@   ®,5ÝG@   B#\±K«H@   ™ŸXÞ7I@   —%·Ç£L@   îÇ«lVN@   OpP6ÿˆO@   p{&BP@   ñtïaB®P@   ²kùâòP@   !|ér_§Q@     z=¿¦•µÿßs@)%eúÃ8Q@     z=uWXÿßs@õ9¬àM—P@     z=4q:Ðþßs@à3uærO@     z=¸Ã;Hàs@<"$<Z6N@     z=d ùßs@’žÝ'ïL@     z=^`„ëàs@w‡ä¹ÞºK@     z=`Œ¦ßs@3äKJ@     z=3Déiás@Á+ÇëH@     z=ï‰•AÙs@At¢	˜G@     z=ŒimœËs@×¯Y»>®F@     z=7);¾²°s@nû}øáE@     z=©ÖR—s@–BrÉE@     z=1dØ~s@õAøúD@     z=[D¡¶
+cs@*ÁT~‰D@     z=ƒÔDKs@åä%gú©D@     z=0í·®/s@]IGO)œD@     z=¬µÜÂûr@oÜ%ú¤D@     z=Ëvé%@Ér@ûÒ1†‘£D@     z=„Uñ'“r@³öŒ£D@     z=j–ðÛsr@>Ó vù¤D@     z=ºÑ;ð6Vr@R·u¨é›D@     z=… e–Ç r@[Ì$¥´LE@     z=J6[|áq@†uzu‹G@     z=[éÃè¸q@%vœjCH@     z=™ìQõ>«q@þz4*I@     z=ñà§Cšq@œ÷›¿ùI@     z=¼iþzq@DØ¾ÓcnJ@     z=»‚s/q@:!e¨õ›J@     z=M;Iq@        null_surface%   %   nullbs%   %         ð¿      ð¿           ý›¤Ý+½@p§ƒ,F@
+é¶mÌ$@2)d5)@	¨méðs.@yX?øØ£1@j·‚º~35@}À—8°“7@.¯þ´Ù9@ª~ù<@Ô°.Nr>@èÆs	@@¡+lÂ2Õ@@,ÕWhè¹A@âëšW<‹B@›ù+ñ»E@®‘­1qF@®,5ÝG@B#\±K«H@™ŸXÞ7I@—%·Ç£L@îÇ«lVN@OpP6ÿˆO@p{&BP@ñtïaB®P@      ð¿   
+      ð?
+        %   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %13    %   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ ´  
+point%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ!|ér_§Q@     z=¿¦•µÿßs@%   %
+   %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ¥îÛ µ  %   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:!e¨õ›J@     z=M;Iq@%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %15DE:39%   %   %   %   ÿÿÿÿÿÿÿÿ         ¦îß %17    %   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ      Æîß       ð?                End-of-ACIS-data
+
+# Ansoft project setting data. Non-Ansoft programs
+# should not read the rest of this file.
+B_SETNGS 1.03
+ACIS BinaryFileð
+           SpatialACIS 28.0 NTWed Apr 26 02:03:30 2023      ð?íµ ÷Æ°>»½×Ùß|Û=
+4WHB4UAWXUG25SWXMMTS7K66E99S4N665SC3VQJQCYAMBF8QD3DF4       X  
+transform%      ÿÿÿÿ      ð?                              ð?                              ð?                              ð?	flag%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿ   ÿÿÿÿ    ¥îÛ     
+units%   %   %   ÿÿÿÿÿÿÿÿ          ¥îÛ mm     @@
+color%   %   %   ÿÿÿÿÿÿÿÿÿÿÿÿ       ¥îÛ ÀÀÀ€   „   
+
+point%      ÿÿÿÿÿÿÿÿÿÿÿÿ                        
+color%   ansoft%   attrib%   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    ¥îÛ ÿ ÿ€End-of-ACIS-data
+E_SETNGS 
+
+B_SYMTAB 
+E_SYMTAB 
+ANSOFT OFFSET: 3850 
+$end 'sab'
+$end 'Design_0.setup/NativeGeometryFiles'
+$end 'AllReferencedFilesForProject'
+$begin 'ProjectPreview'
+	IsEncrypted=false
+	Thumbnail64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABgAGADASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooA8ivPirqH/CReK/D3h74U/Ebxl\
+/whur2Wg6xrGg3nwtsdJ/ta+8MeHvFy2lovi74maXeT7NI8UaSZJDaLH5kjojvsJo/4WT4y/wCjfvi7\
+/wCDr4C//Pto+G3/ACOX7QP/AGV3Rf8A1QvwSr12ueEZzUpOtKPvSVkoWSUmlvBvZdzmhGpUUpOvKPv\
+TVkqdkozaW8G9l1bPIv8AhZPjL/o374u/+Dr4C/8Az7aueHviZdat4usvBmt/Dnx14G1TU/Dmv+J9Ln\
+8T3Pw8vbDULDwzqfhfStXhhl8FePtYkgvI7jxforKs8UKSJJIUkLRla9RryLWv+S9fDb/skXxt/wDUy\
+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\
+nrtFFFdJ1BRRRQB//9k='
+	$begin 'DesignInfo'
+		DesignName='Maxwell2DDesign1'
+		Notes=''
+		Factory='Maxwell 2D'
+		IsSolved=false
+		'Nominal Setups'[0:]
+		'Nominal Setup Types'[0:]
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCADIAMgDASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAoor5o+F3h34heN\
+vhn8O/Geq/Hv4o2+qeLvAvhHxPqUGn6D8DIrCC/1/QNP1W8hsYrn4MyyRWa3F3IsSySyuqKoeR2BY5T\
+qckowVOU5STenLok4p35pL+ZbX6mVSryThBU5VJTUn7vLoouKd+aUf5la1+vz+l6K8i/4Vt4y/6OB+L\
+v/gl+Av8A85Kj/hW3jL/o4H4u/wDgl+Av/wA5Kl7Sf/QPP76f/wAmT7Wp/wBA0/vp/wDyw9doryL/AI\
+Vt4y/6OB+Lv/gl+Av/AM5Kj/hW3jL/AKOB+Lv/AIJfgL/85Kj2k/8AoHn99P8A+TD2tT/oGn99P/5Ye\
+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\
+KKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z'
+	$end 'DesignInfo'
+$end 'ProjectPreview'
