@@ -1,6 +1,6 @@
 # 3D - İndüksiyonla Isıtma
 
-## Teorik bilgiler
+## Teorik Bilgiler
 ![magnetic_field](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/8370259c-c511-464c-b5cb-700959f0556f)
 
 
