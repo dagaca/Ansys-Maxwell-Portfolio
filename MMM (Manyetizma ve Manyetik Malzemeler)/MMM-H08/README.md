@@ -1,6 +1,6 @@
 # 2D - Cam İzolatör ve Porselen İzolatör
 
-## Teorik bilgiler
+## Teorik Bilgiler
 ![insulator_profiles](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/be6bccc0-10f9-418a-816c-9c65424909d5)
 
 ![material_properties](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/5fc11f9d-aad1-4da2-9dd2-d3a5adf26420)
