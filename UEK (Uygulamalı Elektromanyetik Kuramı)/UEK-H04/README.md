@@ -2,6 +2,7 @@
 
 ## Teorik bilgiler
 Geometri bilgileri:
+
 ![geometri_bilgileri](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/3e24ec63-5aac-48e9-b2f0-571e3d8ebd21)
 
 
