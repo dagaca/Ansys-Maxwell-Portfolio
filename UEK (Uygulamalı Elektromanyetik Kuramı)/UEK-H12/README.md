@@ -1,6 +1,6 @@
 # 3D - Kablosuz Güç Aktarım (WPT) Transformatörü
 
-## Teorik bilgiler
+## Teorik Bilgiler
 ![part1](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/d7582f55-15d6-486b-a2b8-f7a31b1daa3e)
 
 ![geometri](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/6033d132-c9f0-4172-bc2b-4ad7198b6129)
