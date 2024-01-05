@@ -8,7 +8,7 @@ R COMPONENT: sin(2*(phi-0.785*(Z/40mm)))
 ![mıknatıslanma_yönleri](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/ffb0482f-7fef-4971-919d-722866567658)
 
 ## Referanslar
-**221 Ansys Maxwell - Magnetization Direction [Modelling]-15:40** 
+**221- Ansys Maxwell - Magnetization Direction [Modelling]-15:40** 
 https://youtu.be/jxanzNRVulM 
 
 **222- Ansys Maxwell - Magnetization Direction [Excitation and adv. Mesh Setup]-05:31** 
