@@ -1,6 +1,6 @@
 # 2D - Farklı Kompozit İzolatör Profilleri
 
-## Teorik bilgiler
+## Teorik Bilgiler
 ![insulator_profiles1](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/25b1a868-3f07-4e98-a5a4-d662c23be7ee)
 
 ![insulator_profiles2](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/c96f1d2f-45fc-4d69-bdaa-f1e0e18ab8d7)
