@@ -1,6 +1,6 @@
 # 3D - Dört Kutuplu Mıknatıs
 
-## Teorik bilgiler
+## Teorik Bilgiler
 R COMPONENT: sin(2*(phi-0.785*(Z/40mm)))
 
 ![dort_kutuplu_mıknatıs](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/ad407e8d-4351-42a2-9741-0b185a40714f)
