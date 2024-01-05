@@ -16,5 +16,3 @@ https://youtu.be/6puO5NQ0yBc
 
 **8.2- Thermal Analysis of Induction Heating | Part 2 - Thermal (Steady-state & Transient)-05:51**
 https://youtu.be/1GpHXWr4k5Q 
-
-ANSYS Electronics Desktop 19.0, 2018 kullanılmıştır.
