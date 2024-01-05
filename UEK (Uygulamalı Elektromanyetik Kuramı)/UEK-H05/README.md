@@ -1,6 +1,6 @@
 # HFSS - Göğüs Tümör Tespiti
 
-## Teorik bilgiler
+## Teorik Bilgiler
 
 ![teorik_bilgiler](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/2ae5eca5-6f0c-43e1-8e0d-2ee140eb367b)
 
