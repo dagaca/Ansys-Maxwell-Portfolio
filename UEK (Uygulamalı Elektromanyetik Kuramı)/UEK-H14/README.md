@@ -9,5 +9,3 @@
 ## Referanslar
 **Design and Simulation of Humidity Sensor using Maxwell 3D & Ansys Mechanical - Parametric Modeling-34:56**
 https://youtu.be/YNB1agSxdVw 
-
-ANSYS Electronics Desktop 19.0, 2018 kullanılmıştır.
