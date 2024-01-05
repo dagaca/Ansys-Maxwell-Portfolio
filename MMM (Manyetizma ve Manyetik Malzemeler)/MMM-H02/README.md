@@ -1,6 +1,6 @@
 # 3D - Güç Hesabı
 
-## Teorik bilgiler
+## Teorik Bilgiler
 ![magnetic_force](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/eef744ba-9d34-4d45-9094-121ff8d50fcb)
 
 
