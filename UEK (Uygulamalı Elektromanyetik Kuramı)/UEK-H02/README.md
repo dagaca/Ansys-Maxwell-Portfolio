@@ -1,6 +1,6 @@
 # 3D - Büyük ve Küçük Bobinler
 
-## Teorik bilgiler
+## Teorik Bilgiler
 Karşılıklı Endüktans (Mutual Inductance):
 ![mutual_inductance](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/92a17bc8-d910-4d92-b92c-72151b6db221)
 
