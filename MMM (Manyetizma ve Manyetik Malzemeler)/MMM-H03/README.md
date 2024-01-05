@@ -1,6 +1,6 @@
 # 2D - Manyetik Alan Yönü
 
-## Teorik bilgiler
+## Teorik Bilgiler
 ![manyetik_alan_yönleri](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/6c90083c-d3f1-417d-8098-73e2e82ae325)
 
 
