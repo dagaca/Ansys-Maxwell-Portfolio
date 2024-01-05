@@ -11,7 +11,7 @@ R COMPONENT: sin(2*(phi-0.785*(Z/40mm)))
 **221 Ansys Maxwell - Magnetization Direction [Modelling]-15:40** 
 https://youtu.be/jxanzNRVulM 
 
-**222- Ansys Maxwell - Magnetization Direction [ Excitation and adv. Mesh Setup]-05:31** 
+**222- Ansys Maxwell - Magnetization Direction [Excitation and adv. Mesh Setup]-05:31** 
 https://youtu.be/IBk30wj5oDQ 
 
 **223- Ansys Maxwell - Magnetization Direction [Results and Adv. use of calculator]-13:50**
