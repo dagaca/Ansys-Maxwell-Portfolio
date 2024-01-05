@@ -1,6 +1,6 @@
 # 3D - Parametrik Modelleme Kullanılarak Nem Sensörünün Tasarımı
 
-## Teorik bilgiler
+## Teorik Bilgiler
 
 ![çalışma_prensibi](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/b3129389-cb94-42d3-8e8a-930e4a79bce2)
 
