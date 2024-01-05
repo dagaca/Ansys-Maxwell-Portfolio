@@ -5,10 +5,10 @@
 
 
 ## Referanslar
-**202 Ansys Maxell Calculatig Force with Magnetoestatic Analysis-28:18**
+**202 Ansys Maxwell Calculating Force with Magnetostatic Analysis-28:18**
 https://youtu.be/t4ktDXaxq4Q 
 
-**203 Ansys Maxell Calculatig Force with Magnetoestatic Analysis-13:03**
+**203 Ansys Maxwell Calculating Force with Magnetostatic Analysis-13:03**
 https://youtu.be/Jmw7dSR15G0  
 
 **204 Ansys Maxwell Calculating Force in Magnetostatic Analysis-17:33**
