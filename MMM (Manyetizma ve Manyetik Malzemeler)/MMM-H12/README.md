@@ -1,6 +1,6 @@
 # 2D, 3D - Girdap Akımları
 
-## Teorik bilgiler
+## Teorik Bilgiler
 ![eddy_current_loss](https://github.com/dagaca/Ansys-Maxwell-Portfolio/assets/80363244/0d3a746e-16e4-4e4f-b5a5-bae61aace8e4)
 
 
